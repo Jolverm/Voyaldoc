@@ -1,0 +1,660 @@
+/* 
+ * Voyaldoc.css 
+ * @author Voyaldoc 
+ * @Jorge Olvera 
+  */
+
+ html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+@font-face {
+ font-family: 'segoeuisl'; 
+ src: url('../fonts/segoeuisl.eot'); 
+ src: url('../fonts/segoeuisl.eot?#iefix') format('embedded-opentype'), 
+ url('../fonts/segoeuisl.svg#segoeuisl') format('svg'), 
+ url('../fonts/segoeuisl.woff') format('woff'), 
+ url('../fonts/segoeuisl.ttf') format('truetype'); 
+ font-weight: normal; 
+ font-style: normal;
+} 
+
+
+/*************************
+* ESTILOS GENERALES      *
+*************************/
+
+/*************************
+*         MENU          *
+*************************/
+.navbar{
+  margin-bottom: 0px;
+}
+
+
+.navbar-default {
+  background: -webkit-linear-gradient (to right,#56B8DD, #2A92C7); /* For Safari */
+  background: -o-linear-gradient(to right, #56B8DD, #2A92C7); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(to right, #56B8DD, #2A92C7); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #56B8DD, #2A92C7); /* Standard syntax */
+  background: #2A92C7;
+}
+
+.sloganMenu{
+  color: #fff;
+}
+
+.sloganMenu h1{
+  font-size: 14px;
+  font-family: 'Open Sans',sans-serif;';
+  color: #fff;
+}
+
+.facebookMenu{
+  margin-top: 19px;
+
+  color: #fff;
+  font-family: 'Open Sans',sans-serif;';
+}
+
+/*************************
+*    BOTONES MENU      *
+*************************/
+.botonesMenu{
+  margin-top: 8px;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active,
+.open .dropdown-toggle.btn-default {
+  color: #fff;
+  background-color: #2A92C7;
+  border-color: #2A92C7;
+}
+
+.btn-default {
+  color: #fff;
+  background-color: #2A92C7;
+  border-color: #2A92C7;
+}
+
+.dropdown-menu {
+  background-color: #2A92C7;
+}
+
+.dropdown-menu > li > a {
+  color: #fff;
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  color: #fff;
+  background-color: #56B8DD;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+ color: #fff;
+ background-color: #2A92C7;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #fff;
+  background-color: #56B8DD;
+}
+
+.telefonos{
+  color: #61bf4d;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Open Sans',sans-serif;
+  margin: 0px 0 3px 0;
+  text-align: right;
+}
+
+/**********
+*BUSCADOR *
+**********/
+
+.nav-tabs{
+  font-size: 20px;
+}
+
+.nav-tabs>li.active>a , .nav-tabs>li.active>a:hover{
+  color: #fff;
+  background-color: #239acb;
+}
+
+.nav-tabs>li>a:hover {
+  color: #fff;
+  background-color: #239acb;
+}
+
+.nav-tabs>li>a{
+  color: #fff;
+  background-color: #c2c2c2;
+}
+
+.tab-content{
+  border-top: 3px solid #239acb;
+  background-color: #dadddc;
+  height: auto;
+  padding-left: 17px;
+  border-radius: 4px;
+}
+
+.form-control{
+  background-color: rgba(187,187,187,0.7);
+  color: #fff;
+  font-size: 13px;
+}
+
+.form-control::-webkit-input-placeholder {color: #fff}
+.form-control:-moz-placeholder {color: #fff}
+.form-control::-moz-placeholder {color: #fff}
+.form-control:-ms-input-placeholder {color: #fff;}
+
+.especialista{
+  margin-right: -30px;
+}
+
+.estado{
+  margin-right: -50px;
+}
+
+.direccion{
+ margin-right: 8px;
+}
+
+.texto-buscador{
+  margin-left: 17px;
+  color: #fff;
+  font-size: 21px;
+  padding: 13px 0 8px 0;
+}
+.texto-buscador-link{
+  margin-left: 17px;
+  color: #fff;
+  font-size: 21px;
+  padding: 13px 0 17px 0;
+}
+
+.btn-default{
+  background-color: #f18621;
+  border: #f18622;
+}
+
+.btn-default:hover{
+  background-color: #f18621;
+  border: #f18622;
+}
+
+
+.img-buscador{
+ padding: 2px;
+}
+
+.doc-a-domicilio{
+  padding-top: 24px;
+  text-align: left;
+  font-size: 16px;
+}
+
+.doc-a-domicilio a{
+  color: #61BF4D;
+  text-decoration: none;
+}
+
+.doc-a-domicilio-terminos{
+  padding-top: 24px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.doc-a-domicilio-terminos a{
+  color: #666666;
+  text-decoration: none;
+}
+
+/*********
+* SLIDER *
+*********/
+
+.blog {
+  position: absolute;
+  right: 20%;
+  bottom: 180px;
+  left: 5%;
+  z-index: 10;
+  color: #fff;
+  text-align: center;
+  opacity: 0.8;
+  overflow: hidden;
+  padding-bottom: 15px;
+  background-color: #42a5ce;
+  border-radius: 8px; 
+}
+
+.blog a{
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  overflow: hidden;
+  word-wrap:break-word;
+}
+
+.tituloBlog>a{
+  font-size: 20px;
+}
+
+.informacionSalud{
+  margin: 10px 10px;
+  width: 110px;
+  height: 130px;
+  float: left;
+}
+
+.DrDestacado {
+  position: absolute;
+  right: 20%;
+  bottom: 10px;
+  left: 5%;
+  z-index: 10;
+  color: #fff;
+  text-align: center;
+  opacity: 0.8;
+  overflow: hidden;
+  background-color: #42a5ce;
+  border-radius: 8px; 
+}
+
+.DrDestacado a{
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+}
+
+.tituloDrDestacado{
+  width: 265;
+  height: 50px;
+  padding: 10px 0px 10px 0px;
+
+}
+
+.textoDrDestacado{
+  width: 265px;
+  height: 50px;
+}
+
+.botonesDestacado{
+  margin-top: 10px;
+  width: 265;
+  height: 50px;
+}
+
+.aseguradoras
+{
+  position: absolute;
+  right: 20%;
+  bottom: 10px;
+  left: 32%;
+  z-index: 10;
+  color: #fff;
+  text-align: left;
+  opacity: 0.7;
+  overflow: hidden;
+  padding-bottom: 15px;
+  background-color: #42a5ce;
+  border-radius: 8px; 
+  text-indent: 2px;
+}
+
+.tituloAseguradoras {
+  font-size: 16px;
+  margin: 10px 0px 5px 0px;
+}
+
+.tituloAseguradoras a {
+  color: #fff;
+  float: left;
+  font-size: 16px;
+}
+
+.listaBusquedaDr {
+  width: 180px;
+  height: 290px;
+  float: left;
+  margin: 0px 31px 0px 5px;
+}
+
+.listaBusquedaDr a{
+  color: #fff;
+  font-size: 18px;
+}
+
+.listaBusquedaDr li>a{
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/*********
+* LOGIN *
+*********/
+.iniciaSesionLogin{
+  background-color: #1E84C6;
+  color: #fff;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+.iniciaSesionLogin span{
+  font-size: 16px;
+  margin:5px auto;
+  width: 180px;
+  display: block;  
+}
+
+.iniciaSesionLogin img{
+  margin:0 auto;
+  width: 230px;
+  display: block;
+}
+
+.sesion{
+  margin: 10px 0px 10px 100px;
+}
+
+.formIniciarSesion input{
+  width: 230px;
+ margin: 0px 0px 0px 50px;
+}
+
+.iniciaSesionTitulo{
+font-size: 40px;
+text-align: center;
+margin: 10px 3px;
+
+
+}
+
+
+
+
+.registroLogin{
+  background-color: #f5f5f5;
+  color: #1E84C6;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+.registroTitulo{
+
+
+}
+
+/************
+* EDITORIAL *
+*************/
+
+.editorial{
+  background-color: #c8c8c8;
+}
+
+.editorial img{
+  margin: 15px 0;
+}
+
+.editorialImgCentrada{
+  padding-top: 7px;
+}
+
+#footer {
+  background-color: #f6f6f6;
+}
+
+#footer a{
+  color: #c1c1c1;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 15px;
+  margin: 1.4% 0;
+}
+
+#footer p{
+  color: #989898;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 5px;
+  text-align: left;
+}
+
+#fContacto{
+  background: url('../img/llamadafooter.png') no-repeat scroll 0 0 transparent;
+  padding: 0 0 0 25px;
+  margin-left: -25px !important;
+  cursor: pointer;
+}
+
+#fChat{
+  background: url('../img/chatfooter.png') no-repeat scroll 0 0 transparent;
+  padding: 0 0 0 25px;
+  margin-left: -25px !important;
+  cursor: pointer;
+  width: 100%;
+}
+
+
+
+/***********************************
+* FIN DE ESTILOS GENERALES 1336px *
+************************************/
+ 
+
+
+/*****************************************
+*  INICIO ESTILOS DIPOSITIVOS 1024*768px *
+******************************************/
+
+@media (max-width: 1024px) {
+
+  .logoMovil img{
+    margin:0 auto;
+    width:1500%;
+  }
+
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #fff;
+  }
+
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    background-color: #56B8DD;
+    color: #fff;
+  }
+
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+  }
+
+
+  .navbar-default .navbar-toggle:hover,
+  .navbar-default .navbar-toggle:focus {
+    background-color: #56B8DD;
+  }
+
+  .form-inline .form-control{
+    width: 160px;
+  }
+
+  .estado{
+   margin-right: -15px;
+ }
+
+ .buscar{
+  margin: -20px;
+}
+
+.informacionSalud{
+  margin: 10px 5px;
+  width: 95px;
+  height: 110px;
+  float: left;
+}
+
+.blog {
+  right: 20%;
+  bottom: 180px;
+  left: 5%;
+  padding-bottom: 15px;
+}
+
+.blog a{
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  overflow: hidden;
+  word-wrap:break-word;
+}
+
+.tituloBlog>a{
+  font-size: 16px;
+}
+
+.DrDestacado {
+  bottom: 40px;
+  text-align: left;
+  text-indent: 2px;
+}
+
+
+.DrDestacado a{
+  color: #fff;
+  font-size: 16px; 
+}
+
+.tituloDrDestacado{
+  width: 230px;
+  height: 35px;
+  padding: 5px 0px 5px 0px;
+}
+
+.textoDrDestacado{
+  width: 230px;
+  height: 40px;
+  font-size: 12px;
+}
+
+.botonesDestacado{
+  margin-top: 10px;
+  width: 265;
+  height: 50px;
+}
+
+
+.aseguradoras
+{
+  position: absolute;
+  right: 20%;
+  bottom: 40px;
+  left: 31%;
+  z-index: 10;
+  color: #fff;
+  text-align: left;
+  opacity: 0.7;
+  overflow: hidden;
+  padding-bottom: 15px;
+  background-color: #42a5ce;
+  border-radius: 8px; 
+  text-indent: 2px;
+}
+
+.tituloAseguradoras {
+  font-size: 16px;
+  margin: 10px 0px 5px 0px;
+}
+
+.tituloAseguradoras a {
+  color: #fff;
+  float: left;
+  font-size: 16px;
+}
+
+.listaBusquedaDr {
+  width: 180px;
+  height: 233px;
+  float: left;
+  margin: 0px 20px 0px 5px;
+}
+
+.listaBusquedaDr a{
+  color: #fff;
+  font-size: 16px;
+}
+
+.listaBusquedaDr li>a{
+  color: #fff;
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+}
+
+
+
+/***********************************
+* FIN DE ESTILOS DIPOSITIVOS 1024px *
+************************************/
+ 
+
+
+ /***********************************
+*  INICIO ESTILOS DIPOSITIVOS 768px *
+************************************/
+
+@media (max-width: 768px) {
+
+  .logoMenu ul>li>img{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+  }
+
+  .menuMovil{
+    background-color: #2A92C7;
+  }
+
+  .botonMenuMovil{
+    width: 130px;
+    height: 40px;
+    float: left;
+    padding-top: 5px;
+  }
+
+  .logoMovil{
+    background-image:url('../img/logo-movil.png');
+    background-size:60px 40px;
+    background-repeat:no-repeat;
+    width: 100px;
+    height: 40px;
+    float: left;
+  }
+
+
+
+}
+
+
+/***********************************
+* FIN DE ESTILOS DIPOSITIVOS 767px *
+************************************/
