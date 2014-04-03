@@ -14,8 +14,8 @@
         <div class="col-md-4">
           <img src="img/logo.png" class="img-responsive" alt="Voy al Doc, Tu cita en un click">
         </div>
-        <!--Inicia tabs-->
-        <div class="col-lg-8 col-md-8 hidden-xs">
+        <!--Inicia Ads banner-->
+        <div class="col-lg-8 col-md-6 hidden-xs banner">
 
           <script type='text/javascript'><!--//<![CDATA[
    var m3_u = (location.protocol=='https:'?'https://ads.voyaldoc.net/adserver/www/delivery/ajs.php':'http://ads.voyaldoc.net/adserver/www/delivery/ajs.php');
@@ -33,6 +33,6 @@
    document.write ("'><\/scr"+"ipt>");
 //]]>--></script><noscript><a href='http://ads.voyaldoc.net/adserver/www/delivery/ck.php?n=a54ba74c&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://ads.voyaldoc.net/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a54ba74c' border='0' alt='' /></a></noscript>
 
-        </div><!--termina tabs-->
+        </div><!--termina Ads banner-->
   </div>
-</div><!--FIN BUSCADOR -->
+</div> <!--baner -->
