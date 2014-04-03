@@ -13,11 +13,15 @@
   		<span> o tu usuario y contraseña:</span>
   		<form role="form" class="formIniciarSesion">
   <div class="form-group">
+    <label class="formIniciarSesionlabel">Correo Electrónico</label>
     <input type="email" class="form-control" id="email" placeholder="Correo Electrónico">
   </div>
   <div class="form-group">
+    <label class="formIniciarSesionlabel">Contraseña</label>
     <input type="password" class="form-control" id="password" placeholder="contraseña">
   </div>
+
+    <a href="#">Olvidé mi contraseña</a>
   <button type="submit" class="btn btn-default sesion">Iniciar Sesión</button>
 </form>
   	</div>
@@ -28,6 +32,12 @@
   		<div class="registroTitulo">
   			¿Nos visitas por primera vez?
   		</div>
+      <div class="col-md-12">
+        <button type="button" class="btn btn-warning soyPacienteRegistro">Soy Paciente </button>
+      </div>
+      <div class="col-md-12">
+        <button type="button" class="btn btn-success soyDoctorRegistro">Soy Doctor</button>
+      </div>
   	</div>
   </div>
   <!-- Terminan formularios de login-->

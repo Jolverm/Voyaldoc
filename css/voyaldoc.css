@@ -355,6 +355,7 @@ body {
   color: #fff;
   border-radius: 10px;
   -webkit-border-radius: 10px;
+  margin: 30px 30px 30px 100px;
 }
 
 .iniciaSesionLogin span{
@@ -362,6 +363,14 @@ body {
   margin:5px auto;
   width: 180px;
   display: block;  
+}
+
+.iniciaSesionLogin a{
+  text-align: left;
+  color: #fff;
+  text-decoration: underline;
+  font-size: 12px;
+
 }
 
 .iniciaSesionLogin img{
@@ -379,26 +388,185 @@ body {
  margin: 0px 0px 0px 50px;
 }
 
+.formIniciarSesion label{
+ margin: 0px 0px 0px 50px;
+}
+
+
 .iniciaSesionTitulo{
 font-size: 40px;
 text-align: center;
 margin: 10px 3px;
-
-
 }
-
-
-
 
 .registroLogin{
   background-color: #f5f5f5;
   color: #1E84C6;
   border-radius: 10px;
   -webkit-border-radius: 10px;
+  margin: 30px;
 }
 
 .registroTitulo{
+  font-size: 40px;
+text-align: center;
+margin: 10px 3px;
+}
 
+.soyPacienteRegistro{
+  width: 300px;
+  height: 40px;
+  margin: 10px;
+}
+
+.soyDoctorRegistro{
+  width: 300px;
+  height: 40px;
+  margin: 10px 10px 60px 10px;
+}
+
+.banner img{
+  width: 750px;  
+  height: 141px;
+
+}
+
+/*******************
+* REGISTRO PACIENTE*
+********************/
+.registro{
+background-color: #f5f5f5;
+border-radius: 8px;
+margin: 15px 0px 20px 0px;
+}
+
+.registroTitulo{
+  color: #83cd73;
+  text-align: left;
+  font-size: 30px;
+  width: 350px;
+}
+
+.registroTitulo span {
+  color: #1E84C6;
+  text-align: left;
+  font-size: 18px;
+  float: left;
+  margin: 10px;
+}
+
+.comoFuncionaRegistro{
+display: block;
+margin: 56px 0px 15px 41px;
+}
+
+.formRegistro label{
+  color: #1E84C6;
+  font-size: 16px;
+}
+
+.fechaNacimiento label{
+  float: left;
+  margin: 0px 200px 0px 0px;
+}
+
+.privacidadTerminos{
+  color: #1E84C6;
+  font-size: 16px;
+}
+
+.privacidadTerminos a{
+  color: #1E84C6;
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+.registrarme{
+  width: 200px;
+  margin: 10px 0px 10px 300px;
+  font-size: 20px;
+}
+
+.beneficios{
+  background-color: #3fa4d1;
+  width: 285px;
+  height: 512px;
+  border-radius: 8px;
+  margin: 15px 0px 20px 0px;
+  color: #fff;
+}
+
+.tituloBeneficios{
+  margin: 10px 10px;
+  font-size: 30px;
+}
+
+.descBeneficios{
+margin: 10px;
+border-top: 1px solid #fff;
+font-size: 14px;
+font-weight: bold;
+padding-top: 10px; 
+}
+
+.beneficios ul li{
+font-size: 16px;
+padding: 5px 0;
+}
+
+.llamadaBanner{
+  background-color: #F4F4F4;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.tituloLlamaGratis{
+color: #979797;
+font-size: 26px;
+margin: 15px 15px 15px 0px;
+float: left;
+}
+
+.tipoNum{
+  float: left;
+  color: #8e8e8e;
+  font-size: 16px; 
+}
+
+.ingresarNumero input{
+  margin: 15px 15px 15px 0px;
+}
+
+.ingresarNumero button{
+  margin: 0px 15px 15px 0px;
+}
+
+.bannerInferior img{
+  width: 500px;  
+  height: 111px;
+  margin-top: 30px;
+}
+
+/*******************
+* REGISTRO PACIENTE*
+********************/
+
+.comoFuncionaRegistroDr{
+  display: block;
+  margin: 15px 0px 15px 41px;
+}
+
+.prefijo label{
+  float: left;
+}
+
+.foto{
+  margin-top: 12px;
+}
+
+
+.telRegistroDr label{
+margin: 4px 160px 0px 0px;
 
 }
 
@@ -608,8 +776,174 @@ margin: 10px 3px;
   line-height: 1.7;
 }
 
+
+/*********
+* LOGIN *
+*********/
+.iniciaSesionLogin{
+  margin: 30px 30px 10px 100px;
 }
 
+.iniciaSesionLogin span{
+  font-size: 12px;
+  margin:5px auto;
+  width: 180px;
+  display: block;  
+}
+
+.iniciaSesionLogin a{
+  text-align: left;
+  color: #fff;
+  text-decoration: underline;
+  font-size: 12px;
+
+}
+
+.iniciaSesionLogin img{
+  margin:0 auto;
+  width: 200px;
+  display: block;
+}
+
+.sesion{
+  margin: 10px 0px 10px 30px;
+}
+
+.formIniciarSesion input{
+  width: 200px;
+ margin: 0px 0px 0px 30px;
+}
+
+.formIniciarSesion label{
+ margin: 0px 0px 0px 30px;
+}
+
+.iniciaSesionTitulo{
+font-size: 30px;
+text-align: center;
+margin: 10px 3px;
+}
+
+.registroLogin{
+  background-color: #f5f5f5;
+  color: #1E84C6;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  margin: 30px;
+}
+
+.registroTitulo{
+  font-size: 30px;
+text-align: center;
+margin: 10px 3px;
+}
+
+.soyPacienteRegistro{
+  width: 200px;
+  height: 40px;
+  margin: 10px;
+}
+
+.soyDoctorRegistro{
+  width: 200px;
+  height: 40px;
+  margin: 10px 10px 60px 10px;
+}
+
+.banner img{
+  width: 600px;  
+  height: 141px;
+  margin-top: 15px;
+}
+
+/***********
+* REGISTRO *
+************/
+
+.registroTitulo{
+  font-size: 25px;
+  width: 200px;
+}
+
+.registroTitulo span {
+  font-size: 16px;
+  margin: 5px;
+}
+
+
+.comoFuncionaRegistro{
+margin: 42px 0px 15px 116px;
+}
+
+.formRegistro label{
+  font-size: 14px;
+}
+
+.fechaNacimiento label{
+margin: 4px 160px 0px 0px;
+
+}
+
+.privacidadTerminos{
+  font-size: 14px;
+}
+
+.privacidadTerminos a{
+  font-size: 14px;
+}
+
+
+.registrarme{
+  width: 180px;
+  margin: 10px 0px 10px 250px;
+  font-size: 18px;
+}
+
+
+.beneficios{
+  width: 235px;
+  height: 475px;
+}
+
+
+.tituloBeneficios{
+margin: 5px 10px;
+font-size: 25px;
+}
+
+.descBeneficios{
+margin: 5px;
+font-size: 12px;
+padding-top: 5px; 
+}
+
+.beneficios ul li{
+font-size: 12px;
+padding: 5px 0;
+}
+
+
+.tituloLlamaGratis{
+font-size: 22px;
+margin: 4px 15px 2px 0px;
+
+}
+
+.tipoNum{
+  float: left;
+  color: #8e8e8e;
+  font-size: 16px; 
+}
+
+.bannerInferior img{
+  width: 420px;  
+  height: 105px;
+  margin-top: 15px;
+}
+
+
+
+}/* fin de media querie 1024px*/
 
 
 /***********************************
