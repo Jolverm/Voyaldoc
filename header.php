@@ -8,6 +8,7 @@
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/voyaldoc.css" rel="stylesheet">
   <link href="css/menu.css" rel="stylesheet" type="text/css">
+  <link href="css/chosen/chosen.css" rel="stylesheet" type="text/css">
   
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->

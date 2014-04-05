@@ -7,7 +7,6 @@
  html,
 body {
   height: 100%;
-  /* The html and body elements cannot have any padding or margin. */
 }
 
 @font-face {
@@ -22,9 +21,11 @@ body {
 }
 
 
-/*************************
-* ESTILOS GENERALES      *
-*************************/
+/***********************************************
+* ESTILOS GENERALES Y DISPOSITIVOS 1336PX      *
+***********************************************/
+/*--------------------------------------------------------------------------------------------------------*/
+
 
 /*************************
 *         MENU          *
@@ -32,7 +33,6 @@ body {
 .navbar{
   margin-bottom: 0px;
 }
-
 
 .navbar-default {
   background: -webkit-linear-gradient (to right,#56B8DD, #2A92C7); /* For Safari */
@@ -54,10 +54,10 @@ body {
 
 .facebookMenu{
   margin-top: 19px;
-
   color: #fff;
   font-family: 'Open Sans',sans-serif;';
 }
+/*--------------------------------------------------------------------------------------------------------*/
 
 /*************************
 *    BOTONES MENU      *
@@ -89,6 +89,7 @@ body {
 .dropdown-menu > li > a {
   color: #fff;
 }
+
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
   color: #fff;
@@ -121,9 +122,134 @@ body {
   text-align: right;
 }
 
+/*--------------------------------------------------------------------------------------------------------*/
+
+/**********
+*BANNERS  *
+**********/
+
+/*banner Superior*/
+
+.banner img{
+  width: 750px;  
+  height: 141px;
+}
+
+/*banner lateral beneficios Pacientes */
+
+.beneficios{
+  background-color: #3fa4d1;
+  width: 285px;
+  height: 512px;
+  border-radius: 8px;
+  margin: 15px 0px 20px 0px;
+  color: #fff;
+}
+
+.tituloBeneficios{
+  margin: Dpx 10px;
+  font-size: 30px;
+}
+
+.descBeneficios{
+margin: 10px;
+border-top: 1px solid #fff;
+font-size: 14px;
+font-weight: bold;
+padding-top: 10px; 
+}
+
+.beneficios ul li{
+font-size: 16px;
+padding: 5px 0;
+}
+
+/*banner lateral beneficios Dr */
+
+.beneficiosDr{
+  background-color: #3fa4d1;
+  width: 290px;
+  height: 555px;
+  border-radius: 8px;
+  margin: 15px 0px 20px 0px;
+  color: #fff;
+}
+
+.tituloBeneficiosDr{
+  margin: 10px 10px;
+  font-size: 30px;
+}
+
+.descBeneficiosDr{
+margin: 10px;
+border-top: 1px solid #fff;
+font-size: 14px;
+font-weight: bold;
+padding-top: 10px; 
+}
+
+.beneficiosDr ul li{
+font-size: 14px;
+padding: 3px 0;
+margin-left: -40px;
+}
+
+/*banner Inferior*/
+
+.llamadaBanner{
+  background-color: #F4F4F4;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.tituloLlamaGratis{
+color: #979797;
+font-size: 26px;
+margin: 15px 15px 15px 0px;
+float: left;
+}
+
+.tipoNum{
+  float: left;
+  color: #8e8e8e;
+  font-size: 16px; 
+}
+
+.ingresarNumero input{
+  margin: 15px 15px 15px 0px;
+}
+
+.ingresarNumero button{
+  margin: 0px 15px 15px 0px;
+}
+
+.bannerInferior img{
+  width: 500px;  
+  height: 111px;
+  margin-top: 30px;
+}
+
+
+/*banner Lateral Ads*/
+
+.bannerlateral{
+margin: 14px 0px 10px 0px;
+padding-left: 45px;
+}
+
+.bannerlateral img{
+  width: 200px;  
+  height: 600px;
+}
+
+
+/*--------------------------------------------------------------------------------------------------------*/
+
 /**********
 *BUSCADOR *
 **********/
+
+/*buscador principal tabs */
 
 .nav-tabs{
   font-size: 20px;
@@ -176,270 +302,13 @@ body {
  margin-right: 8px;
 }
 
-
-/****Estilos Alex****/
-
-/********************
-   PAGE RESULTADOS
-*********************/
-.filtrar{
-	margin:20px -42px 30px 5px;
-}
-.costo{
-	margin:20px -61px 30px 0;
-}
-.nombre{
-	margin:20px 0 30px;
-}
-.btn{
-	margin-top:56px;
-	margin-bottom:40px;
-	margin-left:5px;
-}
-
-.text_resultado{
-	margin-top:20px;
-    font-family: 'Open Sans',sans-serif;
-	font-size:15px;
-	color: #0F91CB;
-	font-weight:bold;
-}
-.resultado{
-	margin-top:2px;
-	background:#F4F4F4;
-	height:auto;
-	-webkit-border-radius: 20px;
-	-moz-border-radius: 20px;
-	border-radius: 20px;
-	padding-top:20px;
-	padding-bottom:20px;
-	margin-bottom:20px;
-}
-.aplicacion{
-	margin-top:2px;
-	background:#00F;
-	height:auto;
-}
-.avatar{
-	margin-left:-16px;
-}
-
-.titulo-dr{
-	font-family: 'Open Sans',sans-serif;
-	font-size:14px;
-	color: #0F91CB;
-	font-weight:bold;
-	text-decoration:underline;
-}
-.subtitulo{
-	font-size:14px;
-	color:#444444;
-	font-weight:bold;
-}
-.semana-inicio{
-	margin-left:15px;
-}
-.semana{
-	font-size:12px;
-	text-align:center;
-}
-.semana, .semana1, .semana-inicio{
-	font-size:12px;
-}
-.semana1{
-	background:#EEECED;
-}
-
-.tit-dia{
-	width:100%;
-	font-weight:bold;
-	font-size:14px;
-	text-align:center;
-	margin:0;
-}
-.horario{
-	color:#19A7C5;
-	text-decoration:underline;
-}
-
-/********************
-     PAGE PERFIL 
-*********************/
-.menu-perfil>li.active>a , .menu-perfil>li.active>a:hover, .menu-perfil > li > a:hover {
-	background: none repeat scroll 0 0 #5EC14C;
-    font-size: 16px;
-    font-weight: bold;
-    height: 40px;
-    margin-top: 10px;
-    padding: 10px;
-}
-.menu-perfil > li > a{
-	background: none repeat scroll 0 0 #C2C2C2;
-	font-size: 16px;
-    font-weight: bold;
-    height: 40px;
-    margin-top: 10px;
-    padding: 10px;
-	margin-bottom:10px;
-}
-.menu-perfil{
-	border:none;	
-	margin-top:20px;
-}
-.borderArt {
-    border-top: 4px solid #5EC14C;
-    height: 1px;
-    left: 0;
-    position: absolute;
-    top: 329px;
-    width: 100%;
-}
-.perfil{
-	background:#FFF;
-	border:none;
-	margin-top:20px;
-}
-.tit-perfil{
-	color:#2A92C7;
-}
-
-.boton{
-    background: none repeat scroll 0 0 #2A92C9;
-    border: 1px solid #1D6DC1;
-    color: #FFFFFF;
-    height: 40px;
-    text-shadow: 0 -1px 0 #1D6DC1;
-	width:111px;
-	padding:10px;
-	transition: box-shadow 0.5s ease 0s, border 0.5s ease 0s, background 0.5s ease 0s;
-	-webkit-border-radius: 6px;
-	-moz-border-radius: 6px;
-	border-radius: 6px;
-}
-.boton:hover{
-	background:#2A92FE;
-	text-decoration:none;
-	color:#FFF;
-}
-.boton-azul{
-	color:#FFF;
-	width:111px;
-	margin-bottom:20px;
-	margin-top:20px;
-}
-.calendario{
-	height:400px;
-	background:#CCC;
-	margin-bottom:30px;
-}
-.cuenta{
-	background:#F5F5F5;
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	border-radius: 10px;
-	margin-bottom:30px;
-	padding:15px;
-}
-.tit-cuenta{
-	font-weight:bold;
-	color:#2A92FE;
-	margin:0;
-}
-.datos{
-	margin-top:20px;
-	line-height:35px;
-}
-.info-datos{
-	color:#000;
-}
-.datos li{
-	color:#2A92FE;
-	font-weight:bold;
-	font-size:16px;
-}
-.btn-perfil{
-	color:#FFF;
-	margin-bottom:20px;
-	margin:30px auto;
-	text-align:center;
-}
-.enmedio{
-	margin-left:-5px;
-}
-.final{
-	margin-left:-24px;
-}
-.boton-verde{
-    background: none repeat scroll 0 0 #5EBB4B;
-    border: 1px solid #3B9928;
-    color: #FFFFFF;
-    height: 40px;
-    text-shadow: 0 -1px 0 #3B9928;
-	width:111px;
-	padding:10px;
-	transition: box-shadow 0.5s ease 0s, border 0.5s ease 0s, background 0.5s ease 0s;
-	-webkit-border-radius: 6px;
-	-moz-border-radius: 6px;
-	border-radius: 6px;
-	font-weight:bold;
-}
-.boton-verde:hover{
-	background:#3B9928;
-	text-decoration:none;
-	color:#FFF;
-
-}
-.boton-naranja{
-    background: none repeat scroll 0 0 #F18622;
-    border: 1px solid #E66E0C;
-    color: #FFFFFF;
-    height: 40px;
-    text-shadow: 0 -1px 0 #E66E0C;
-	width:111px;
-	padding:10px;
-	transition: box-shadow 0.5s ease 0s, border 0.5s ease 0s, background 0.5s ease 0s;
-	-webkit-border-radius: 6px;
-	-moz-border-radius: 6px;
-	border-radius: 6px;
-	font-weight:bold;	
-}
-.boton-naranja:hover{
-	background: #E66E0C;
-	text-decoration:none;
-	color:#FFF;
-}
-.consultorios{
-	background:#F5F5F5;
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	border-radius: 10px;
-	margin-bottom:30px;
-	padding:15px;
-}
-.boton-blue{
-    background: none repeat scroll 0 0 #2A92C9;
-    border: 1px solid #1D6DC1;
-    color: #FFFFFF;
-    height: 40px;
-    text-shadow: 0 -1px 0 #1D6DC1;
-	width:111px;
-	padding:10px;
-	transition: box-shadow 0.5s ease 0s, border 0.5s ease 0s, background 0.5s ease 0s;
-	-webkit-border-radius: 6px;
-	-moz-border-radius: 6px;
-	border-radius: 6px;	
-}
-
-
-/****Estilos Alex****/
-
-
 .texto-buscador{
   margin-left: 17px;
   color: #fff;
   font-size: 21px;
   padding: 13px 0 8px 0;
 }
+
 .texto-buscador-link{
   margin-left: 17px;
   color: #fff;
@@ -456,7 +325,6 @@ body {
   background-color: #f18621;
   border: #f18622;
 }
-
 
 .img-buscador{
  padding: 2px;
@@ -483,6 +351,294 @@ body {
   color: #666666;
   text-decoration: none;
 }
+
+/*buscador filtro */
+
+.filtrar{
+  margin:20px -42px 30px 5px;
+}
+
+.costo{
+  margin:20px -61px 30px 0;
+}
+
+.nombre{
+  margin:20px 0 30px;
+}
+
+/*--------------------------------------------------------------------------------------------------------*/
+
+/**********************
+* RESULTADOS DOCTORES *
+***********************/
+
+.text_resultado{
+	margin-top:20px;
+    font-family: 'Open Sans',sans-serif;
+	font-size:15px;
+	color: #0F91CB;
+	font-weight:bold;
+}
+
+.resultado{
+	margin-top:2px;
+	background:#F4F4F4;
+	height:auto;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	padding-top:20px;
+	padding-bottom:20px;
+	margin-bottom:20px;
+}
+
+.aplicacion{
+	margin-top:2px;
+	background:#00F;
+	height:auto;
+}
+
+.avatar{
+	margin-left:-16px;
+}
+
+.titulo-dr{
+	font-family: 'Open Sans',sans-serif;
+	font-size:14px;
+	color: #0F91CB;
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+.subtitulo{
+	font-size:14px;
+	color:#444444;
+	font-weight:bold;
+}
+
+.semana-inicio{
+	margin-left:15px;
+}
+
+.semana{
+	font-size:12px;
+	text-align:center;
+}
+
+.semana, .semana1, .semana-inicio{
+	font-size:12px;
+}
+
+.semana1{
+	background:#EEECED;
+}
+
+.tit-dia{
+	width:100%;
+	font-weight:bold;
+	font-size:14px;
+	text-align:center;
+	margin:0;
+}
+
+.horario{
+	color:#19A7C5;
+	text-decoration:underline;
+}
+
+/*--------------------------------------------------------------------------------------------------------*/
+
+/*******************
+*  PERFIL PACIENTE  *
+********************/
+.menu-perfil>li.active>a , .menu-perfil>li.active>a:hover, .menu-perfil > li > a:hover {
+	background: none repeat scroll 0 0 #5EC14C;
+    font-size: 16px;
+    font-weight: bold;
+    height: 40px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.menu-perfil > li > a{
+	background: none repeat scroll 0 0 #C2C2C2;
+	font-size: 16px;
+    font-weight: bold;
+    height: 40px;
+    margin-top: 10px;
+    padding: 10px;
+	margin-bottom:10px;
+}
+
+.menu-perfil{
+	border:none;	
+	margin-top:20px;
+}
+
+.borderArt {
+    border-top: 4px solid #5EC14C;
+    height: 1px;
+    left: 0;
+    position: absolute;
+    top: 329px;
+    width: 100%;
+}
+
+.perfil{
+	background:#FFF;
+	border:none;
+	margin-top:20px;
+}
+
+.tit-perfil{
+	color:#2A92C7;
+}
+
+.boton{
+    background: none repeat scroll 0 0 #2A92C9;
+    border: 1px solid #1D6DC1;
+    color: #FFFFFF;
+    height: 40px;
+    text-shadow: 0 -1px 0 #1D6DC1;
+	width:111px;
+	padding:10px;
+	transition: box-shadow 0.5s ease 0s, border 0.5s ease 0s, background 0.5s ease 0s;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+.boton:hover{
+	background:#2A92FE;
+	text-decoration:none;
+	color:#FFF;
+}
+
+.boton-azul{
+	color:#FFF;
+	width:111px;
+	margin-bottom:20px;
+	margin-top:20px;
+}
+
+.calendario{
+	height:400px;
+	background:#CCC;
+	margin-bottom:30px;
+}
+
+.cuenta{
+	background:#F5F5F5;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	margin-bottom:30px;
+	padding:15px;
+}
+
+.tit-cuenta{
+	font-weight:bold;
+	color:#2A92FE;
+	margin:0;
+}
+
+.datos{
+	margin-top:20px;
+	line-height:35px;
+}
+
+.info-datos{
+	color:#000;
+}
+
+.datos li{
+	color:#2A92FE;
+	font-weight:bold;
+	font-size:16px;
+}
+
+.btn-perfil{
+	color:#FFF;
+	margin-bottom:20px;
+	margin:30px auto;
+	text-align:center;
+}
+
+.enmedio{
+	margin-left:-5px;
+}
+
+.final{
+	margin-left:-24px;
+}
+
+.boton-verde{
+    background: none repeat scroll 0 0 #5EBB4B;
+    border: 1px solid #3B9928;
+    color: #FFFFFF;
+    height: 40px;
+    text-shadow: 0 -1px 0 #3B9928;
+	width:111px;
+	padding:10px;
+	transition: box-shadow 0.5s ease 0s, border 0.5s ease 0s, background 0.5s ease 0s;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	font-weight:bold;
+}
+
+.boton-verde:hover{
+	background:#3B9928;
+	text-decoration:none;
+	color:#FFF;
+}
+
+.boton-naranja{
+    background: none repeat scroll 0 0 #F18622;
+    border: 1px solid #E66E0C;
+    color: #FFFFFF;
+    height: 40px;
+    text-shadow: 0 -1px 0 #E66E0C;
+	width:111px;
+	padding:10px;
+	transition: box-shadow 0.5s ease 0s, border 0.5s ease 0s, background 0.5s ease 0s;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	font-weight:bold;	
+}
+
+.boton-naranja:hover{
+	background: #E66E0C;
+	text-decoration:none;
+	color:#FFF;
+}
+
+.consultorios{
+	background:#F5F5F5;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	margin-bottom:30px;
+	padding:15px;
+}
+
+.boton-blue{
+    background: none repeat scroll 0 0 #2A92C9;
+    border: 1px solid #1D6DC1;
+    color: #FFFFFF;
+    height: 40px;
+    text-shadow: 0 -1px 0 #1D6DC1;
+	width:111px;
+	padding:10px;
+	transition: box-shadow 0.5s ease 0s, border 0.5s ease 0s, background 0.5s ease 0s;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;	
+}
+
+/*--------------------------------------------------------------------------------------------------------*/
+
 
 /*********
 * SLIDER *
@@ -546,7 +702,6 @@ body {
   width: 265;
   height: 50px;
   padding: 10px 0px 10px 0px;
-
 }
 
 .textoDrDestacado{
@@ -560,8 +715,7 @@ body {
   height: 50px;
 }
 
-.aseguradoras
-{
+.aseguradoras{
   position: absolute;
   right: 20%;
   bottom: 10px;
@@ -606,6 +760,8 @@ body {
   line-height: 1.7;
 }
 
+/*--------------------------------------------------------------------------------------------------------*/
+
 /*********
 * LOGIN *
 *********/
@@ -629,7 +785,6 @@ body {
   color: #fff;
   text-decoration: underline;
   font-size: 12px;
-
 }
 
 .iniciaSesionLogin img{
@@ -684,11 +839,7 @@ margin: 10px 3px;
   margin: 10px 10px 60px 10px;
 }
 
-.banner img{
-  width: 750px;  
-  height: 141px;
-
-}
+/*--------------------------------------------------------------------------------------------------------*/
 
 /*******************
 * REGISTRO PACIENTE*
@@ -746,68 +897,10 @@ margin: 56px 0px 15px 41px;
   font-size: 20px;
 }
 
-.beneficios{
-  background-color: #3fa4d1;
-  width: 285px;
-  height: 512px;
-  border-radius: 8px;
-  margin: 15px 0px 20px 0px;
-  color: #fff;
-}
-
-.tituloBeneficios{
-  margin: 10px 10px;
-  font-size: 30px;
-}
-
-.descBeneficios{
-margin: 10px;
-border-top: 1px solid #fff;
-font-size: 14px;
-font-weight: bold;
-padding-top: 10px; 
-}
-
-.beneficios ul li{
-font-size: 16px;
-padding: 5px 0;
-}
-
-.llamadaBanner{
-  background-color: #F4F4F4;
-  border-radius: 8px;
-  margin-bottom: 20px;
-}
-
-.tituloLlamaGratis{
-color: #979797;
-font-size: 26px;
-margin: 15px 15px 15px 0px;
-float: left;
-}
-
-.tipoNum{
-  float: left;
-  color: #8e8e8e;
-  font-size: 16px; 
-}
-
-.ingresarNumero input{
-  margin: 15px 15px 15px 0px;
-}
-
-.ingresarNumero button{
-  margin: 0px 15px 15px 0px;
-}
-
-.bannerInferior img{
-  width: 500px;  
-  height: 111px;
-  margin-top: 30px;
-}
+/*--------------------------------------------------------------------------------------------------------*/
 
 /*******************
-* REGISTRO PACIENTE*
+* REGISTRO DOCTOR  *
 ********************/
 
 .comoFuncionaRegistroDr{
@@ -823,11 +916,11 @@ float: left;
   margin-top: 12px;
 }
 
-
 .telRegistroDr label{
 margin: 4px 160px 0px 0px;
-
 }
+
+/*--------------------------------------------------------------------------------------------------------*/
 
 /************
 * EDITORIAL *
@@ -844,6 +937,13 @@ margin: 4px 160px 0px 0px;
 .editorialImgCentrada{
   padding-top: 7px;
 }
+
+
+/*--------------------------------------------------------------------------------------------------------*/
+
+/*********
+* FOOTER *
+**********/
 
 #footer {
   background-color: #f6f6f6;
@@ -882,11 +982,114 @@ margin: 4px 160px 0px 0px;
 }
 
 
+/*******************
+*PAGINAS ESTATICAS *
+*******************/
+
+
+.contenidoEstaticoPag{
+background-color: #f5f5f5;
+border-radius: 5px;
+margin: 15px 0px 20px 0px;
+height: 600px;
+}
+
+.contenidoEstaticoPag h1{
+  font-size: 24px;
+  color: #61bf4d;
+}
+.contenidoEstaticoPag h2{
+  font-size: 20px;
+  color: #979797;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.contenidoEstaticoPag p{
+  font-size: 18px;
+  color: #8e8e8e;
+  margin: 6px 0;
+  text-align: justify;
+}
+
+
+/* -- El qeuipo--*/
+
+.equipo img{
+ width: 111px;
+height: 161px;
+display: block;
+margin: 0 auto;
+border-radius: 19px;
+
+}
+
+.equipo{
+  height: 800px;
+}
+
+.fundadores p{
+text-align: center;
+font-size: 16px;
+width: 140px;
+height: 20px;
+display: block;
+margin: 0 auto;
+}
+
+/* -- Contacto--*/
+
+.enviarContacto{
+  width: 200px;
+  margin: 10px 0px 10px 300px;
+  font-size: 20px;
+}
+
+/* -- Terminos --*/
+
+.terminos{
+  height: 450px;
+overflow-y: scroll;
+}
+
+/* -- Como funciona Voyaldoc.com Pacientes --*/
+
+.videoPacientes{
+  display: block;
+  margin: 0 auto;
+  width: 570px;
+  height: 340px;
+  padding-top: 25px;
+}
+
+/* -- Como funciona Voyaldoc.com Doctores --*/
+.videoDoctores{
+  display: block;
+  margin: 0 auto;
+  width: 570px;
+  height: 340px;
+  padding-top: 25px;
+}
+
+
+
+/* -- FAQ pacentes y doctores --*/
+
+.faq{
+  height: auto;
+}
+
+
+.panel-title a{
+  color: #428bca;
+  font-weight: bold;
+}
 
 /***********************************
 * FIN DE ESTILOS GENERALES 1336px *
 ************************************/
  
+/*--------------------------------------------------------------------------------------------------------*/
 
 
 /*****************************************
@@ -899,6 +1102,13 @@ margin: 4px 160px 0px 0px;
     margin:0 auto;
     width:1500%;
   }
+
+/*--------------------------------------------------------------------------------------------------------*/
+ 
+
+/*************************
+*         MENU          *
+*************************/
 
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #fff;
@@ -914,7 +1124,6 @@ margin: 4px 160px 0px 0px;
     background-color: #fff;
   }
 
-
   .navbar-default .navbar-toggle:hover,
   .navbar-default .navbar-toggle:focus {
     background-color: #56B8DD;
@@ -924,6 +1133,101 @@ margin: 4px 160px 0px 0px;
     width: 160px;
   }
 
+
+/*--------------------------------------------------------------------------------------------------------*/
+
+/**********
+*BANNERS  *
+**********/
+
+/*banner Superior*/
+
+.banner img{
+  width: 600px;  
+  height: 141px;
+  margin-top: 15px;
+}
+
+/*banner lateral beneficios Pacientes */
+
+.beneficios{
+  width: 235px;
+  height: 475px;
+}
+
+
+.tituloBeneficios{
+margin: 5px 10px;
+font-size: 25px;
+}
+
+.descBeneficios{
+margin: 5px;
+font-size: 12px;
+padding-top: 5px; 
+}
+
+.beneficios ul li{
+font-size: 12px;
+padding: 5px 0;
+}
+
+
+/*banner lateral beneficios Dr */
+
+.beneficiosDr{
+ 
+  width: 240px;
+  height: 555px;
+}
+
+.beneficiosDr ul li{
+font-size: 12px;
+padding: 5px 0;
+margin-left: -40px;
+}
+
+/*banner Inferior*/
+
+.tituloLlamaGratis{
+font-size: 22px;
+margin: 4px 15px 2px 0px;
+}
+
+.tipoNum{
+  float: left;
+  color: #8e8e8e;
+  font-size: 16px; 
+}
+
+.bannerInferior img{
+  width: 420px;  
+  height: 105px;
+  margin-top: 15px;
+}
+
+/*banner Lateral Ads*/
+
+.bannerlateral{
+margin: 14px 0px 10px 0px;
+padding-left: 40px;
+}
+
+
+.bannerlateral img{
+  width: 180px;  
+  height: 600px;
+}
+
+
+/*--------------------------------------------------------------------------------------------------------*/
+
+/**********
+*BUSCADOR *
+**********/
+
+/*buscador principal tabs */
+
   .estado{
    margin-right: -15px;
  }
@@ -932,54 +1236,55 @@ margin: 4px 160px 0px 0px;
   margin: -20px;
 }
 
-/****Estilos Alex****/
+/*buscador filtro */
 
 .filtrar{
-	margin-left:5px;
-   	margin-right: -42px;
-	margin-bottom:40px;
-	margin-top:0;
-}
-.costo{
-	margin-left: 12px;
-	margin-bottom:40px;
-	margin-top:0;	
-}
-.nombre{
-	margin-left: 31px;
-	margin-bottom:40px;
-	margin-top:0;	
-}
-.btn{
-	margin-top:20px;
-	margin-bottom:20px;
-	margin-left:1px;
+  margin-left:5px;
+    margin-right: -42px;
+  margin-bottom:40px;
+  margin-top:0;
 }
 
-/********************
-     PAGE PERFIL 
-*********************/
+.costo{
+  margin-left: 12px;
+  margin-bottom:40px;
+  margin-top:0; 
+}
+
+.nombre{
+  margin-left: 31px;
+  margin-bottom:40px;
+  margin-top:0; 
+}
+
+/*--------------------------------------------------------------------------------------------------------*/
+
+/*******************
+*  PERFIL PACIENTE  *
+********************/
 .menu-perfil>li.active>a , .menu-perfil>li.active>a:hover, .menu-perfil > li > a:hover {
-	background: none repeat scroll 0 0 #5EC14C;
+  background: none repeat scroll 0 0 #5EC14C;
     font-size: 16px;
     font-weight: bold;
     height: 40px;
     margin-top: 10px;
     padding: 10px;
-
 }
+
 .menu-perfil > li > a{
-	background: none repeat scroll 0 0 #C2C2C2;
-	font-size: 16px;
+  background: none repeat scroll 0 0 #C2C2C2;
+  font-size: 16px;
     font-weight: bold;
     height: 40px;
     margin-top: 10px;
     padding: 10px;
-	margin-bottom:10px;
+  margin-bottom:10px;
 }
+
 .menu-perfil{
-	border:none;	
+  border:none;  
 }
+
 .borderArt {
     border-top: 4px solid #5EC14C;
     height: 1px;
@@ -988,9 +1293,10 @@ margin: 4px 160px 0px 0px;
     top: 338px;
     width: 100%;
 }
+
 .perfil{
-	background:#FFF;
-	border:none;
+  background:#FFF;
+  border:none;
 }
 
 .boton-verde{
@@ -999,58 +1305,66 @@ margin: 4px 160px 0px 0px;
     color: #FFFFFF;
     height: 40px;
     text-shadow: 0 -1px 0 #3B9928;
-	padding:10px;
-	transition: box-shadow 0.5s ease 0s, border 0.5s ease 0s, background 0.5s ease 0s;
-	-webkit-border-radius: 6px;
-	-moz-border-radius: 6px;
-	border-radius: 6px;
+  padding:10px;
+  transition: box-shadow 0.5s ease 0s, border 0.5s ease 0s, background 0.5s ease 0s;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
 }
+
 .boton-verde:hover{
-	background:#3B9928;
-	text-decoration:none;
-	color:#FFF;
+  background:#3B9928;
+  text-decoration:none;
+  color:#FFF;
 }
+
 .boton-naranja{
     background: none repeat scroll 0 0 #F18622;
     border: 1px solid #E66E0C;
     color: #FFFFFF;
     height: 40px;
     text-shadow: 0 -1px 0 #E66E0C;
-	padding:10px;
-	transition: box-shadow 0.5s ease 0s, border 0.5s ease 0s, background 0.5s ease 0s;
-	-webkit-border-radius: 6px;
-	-moz-border-radius: 6px;
-	border-radius: 6px;
+  padding:10px;
+  transition: box-shadow 0.5s ease 0s, border 0.5s ease 0s, background 0.5s ease 0s;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
 }
+
 .boton-naranja:hover{
-	background: #E66E0C;
-	text-decoration:none;
-	color:#FFF;
+  background: #E66E0C;
+  text-decoration:none;
+  color:#FFF;
 }
+
 .enmedio{
   margin-left:16px;
   width:auto;
 }
+
 .final{
   width:auto;
     margin-left:-15px;
 }
+
 .boton-blue{
     background: none repeat scroll 0 0 #2A92C9;
     border: 1px solid #1D6DC1;
     color: #FFFFFF;
     height: 40px;
     text-shadow: 0 -1px 0 #1D6DC1;
-	padding:10px;
-	transition: box-shadow 0.5s ease 0s, border 0.5s ease 0s, background 0.5s ease 0s;
-	-webkit-border-radius: 6px;
-	-moz-border-radius: 6px;
-	border-radius: 6px;
+  padding:10px;
+  transition: box-shadow 0.5s ease 0s, border 0.5s ease 0s, background 0.5s ease 0s;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
 }
-	
+  
+/*--------------------------------------------------------------------------------------------------------*/
 
-/****Estilos Alex****/
-
+/*********
+* SLIDER *
+*********/
 
 .informacionSalud{
   margin: 10px 5px;
@@ -1084,7 +1398,6 @@ margin: 4px 160px 0px 0px;
   text-indent: 2px;
 }
 
-
 .DrDestacado a{
   color: #fff;
   font-size: 16px; 
@@ -1107,7 +1420,6 @@ margin: 4px 160px 0px 0px;
   width: 265;
   height: 50px;
 }
-
 
 .aseguradoras
 {
@@ -1155,6 +1467,7 @@ margin: 4px 160px 0px 0px;
   line-height: 1.7;
 }
 
+/*--------------------------------------------------------------------------------------------------------*/
 
 /*********
 * LOGIN *
@@ -1175,7 +1488,6 @@ margin: 4px 160px 0px 0px;
   color: #fff;
   text-decoration: underline;
   font-size: 12px;
-
 }
 
 .iniciaSesionLogin img{
@@ -1229,15 +1541,11 @@ margin: 10px 3px;
   margin: 10px 10px 60px 10px;
 }
 
-.banner img{
-  width: 600px;  
-  height: 141px;
-  margin-top: 15px;
-}
+/*--------------------------------------------------------------------------------------------------------*/
 
-/***********
-* REGISTRO *
-************/
+/*******************
+* REGISTRO PACIENTE*
+********************/
 
 .registroTitulo{
   font-size: 25px;
@@ -1260,7 +1568,6 @@ margin: 42px 0px 15px 116px;
 
 .fechaNacimiento label{
 margin: 4px 160px 0px 0px;
-
 }
 
 .privacidadTerminos{
@@ -1271,7 +1578,6 @@ margin: 4px 160px 0px 0px;
   font-size: 14px;
 }
 
-
 .registrarme{
   width: 180px;
   margin: 10px 0px 10px 250px;
@@ -1279,46 +1585,56 @@ margin: 4px 160px 0px 0px;
 }
 
 
-.beneficios{
-  width: 235px;
-  height: 475px;
+/*******************
+*PAGINAS ESTATICAS *
+*******************/
+
+
+.contenidoEstaticoPag{
+margin: 15px 0px 20px 0px;
+height: 600px;
+}
+
+.contenidoEstaticoPag h1{
+  font-size: 22px;
+}
+
+.contenidoEstaticoPag h2{
+  font-size: 18px;
+}
+
+.contenidoEstaticoPag p{
+  font-size: 16px;
+}
+
+/* -- El equipo--*/
+
+.equipo{
+  height: 850px;
+}
+
+/* -- Contacto --*/
+
+.enviarContacto{
+  width: 180px;
+  margin: 10px 0px 10px 250px;
+  font-size: 18px;
 }
 
 
-.tituloBeneficios{
-margin: 5px 10px;
-font-size: 25px;
+/* -- Terminos --*/
+
+.terminos{
+  height: 450px;
+overflow-y: scroll;
 }
 
-.descBeneficios{
-margin: 5px;
-font-size: 12px;
-padding-top: 5px; 
+/* -- FAQ pacentes y doctores --*/
+
+.faq{
+  height: auto;
 }
 
-.beneficios ul li{
-font-size: 12px;
-padding: 5px 0;
-}
-
-
-.tituloLlamaGratis{
-font-size: 22px;
-margin: 4px 15px 2px 0px;
-
-}
-
-.tipoNum{
-  float: left;
-  color: #8e8e8e;
-  font-size: 16px; 
-}
-
-.bannerInferior img{
-  width: 420px;  
-  height: 105px;
-  margin-top: 15px;
-}
 
 
 
@@ -1329,6 +1645,7 @@ margin: 4px 15px 2px 0px;
 * FIN DE ESTILOS DIPOSITIVOS 1024px *
 ************************************/
  
+/*--------------------------------------------------------------------------------------------------------*/
 
 
  /***********************************
@@ -1363,9 +1680,10 @@ margin: 4px 15px 2px 0px;
     float: left;
   }
 
-}
+}/* fin de media querie 767px*/
 
 
 /***********************************
 * FIN DE ESTILOS DIPOSITIVOS 767px *
 ************************************/
+/*--------------------------------------------------------------------------------------------------------*/

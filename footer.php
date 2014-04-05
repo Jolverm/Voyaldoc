@@ -98,10 +98,11 @@
   <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/menu.js"></script>
+  <script src="js/chosen/chosen.jquery.js" type="text/javascript"></script>
 
-  
+
+<!-- Script para menu informacion de salud Dropdowm-->
 <script type="text/javascript">
-
     $(function() {
         $('nav#menu').mmenu({
           slidingSubmenus: false
@@ -109,12 +110,29 @@
       });
   </script>
 
+<!-- Script para tabs buscador-->
   <script>
   $('.buscador a').click(function (e) {
     e.preventDefault()
     $(this).tab('show')
   })
   </script>  
+
+<!-- Script para Registro doctor especialidad-->
+<script type="text/javascript">
+    var config = {
+      '.chosen-select'           : {},
+      '.chosen-select-deselect'  : {allow_single_deselect:true},
+      '.chosen-select-no-single' : {disable_search_threshold:10},
+      '.chosen-select-no-results': {no_results_text:'Oops, nothing found!'},
+      '.chosen-select-width'     : {width:"95%"}
+    }
+    for (var selector in config) {
+      $(selector).chosen(config[selector]);
+    }
+  </script>
+
+<!-- Script -->
 
 </body>
 </html>

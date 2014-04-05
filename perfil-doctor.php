@@ -2,7 +2,7 @@
 <!-- Contenedor principal-->
 <div class="borderArt"></div>
 <div class="container"> 
-<?php include'topBanner.php'?>
+<?php include'topBanner.php';?>
 
 <ul class="nav nav-tabs menu-perfil"><!--inicia menu Perfil Usuario -->
   <li class="active"><a href="#calendario">Mi Calendario</a></li>
