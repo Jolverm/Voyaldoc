@@ -98,8 +98,14 @@
   <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/menu.js"></script>
+<<<<<<< HEAD
   <script src="js/chosen/chosen.jquery.js" type="text/javascript"></script>
 
+=======
+
+  
+<script type="text/javascript">
+>>>>>>> origin/alex
 
 <!-- Script para menu informacion de salud Dropdowm-->
 <script type="text/javascript">
