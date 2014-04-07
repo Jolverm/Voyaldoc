@@ -29,10 +29,10 @@
         <div class="col-lg-6 col-md-6 prefijo">  
           <label >Prefijo</label> 
           <select id="prefijo" class="form-control">
-              <option>Dr.</option>
-              <option>Dra.</option>
-              <option>Lic.</option>
-            </select>
+            <option>Dr.</option>
+            <option>Dra.</option>
+            <option>Lic.</option>
+          </select>
         </div>
         <div class="col-lg-6 col-md-6">
           <label >Nombre</label>
@@ -79,31 +79,31 @@
           <input type="text" class="form-control" id="promocion" placeholder="Código de Promoción">
         </div>
       </div>
-        <div class="form-group">
+      <div class="form-group">
         <div class="col-lg-6 col-md-6 telRegistroDr">  
           <label>Teléfono</label>
-          <div class="col-lg-4 col-md-4">
-          <input type="text" class="form-control" id="ladaFijo" placeholder="Lada">
-        </div>
-        <div class="col-lg-4 col-md-4">
-          <input type="text" class="form-control" id="numeroFijo" placeholder="Número">
-        </div>
+          <div class="col-lg-6 col-md-6">
+            <input type="text" class="form-control" id="ladaFijo" placeholder="Lada">
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <input type="text" class="form-control" id="numeroFijo" placeholder="Número">
+          </div>
         </div>
         <div class="col-lg-6 col-md-6 telRegistroDr">
           <label>Celular</label>
-          <div class="col-lg-4 col-md-4">
-          <input type="text" class="form-control" id="ladaCelular" placeholder="Lada">
-        </div>
-        <div class="col-lg-4 col-md-4">
-          <input type="text" class="form-control" id="numeroCelular" placeholder="Número">
-        </div>
+          <div class="col-lg-6 col-md-6">
+            <input type="text" class="form-control" id="ladaCelular" placeholder="Lada">
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <input type="text" class="form-control" id="numeroCelular" placeholder="Número">
+          </div>
         </div>
       </div>
-        <div class="form-group">
+      <div class="form-group">
         <div class="col-lg-6 col-md-6">  
-          <label >Especialidad(es)</label>      
-          <select id="estado" class="form-control">
-            <option value="distrito_federal" selected="selected">Distrito Federal</option>
+          <label >Especialidad(es)</label>    
+          <select id="estado" class=" form-control chosen-select especialidadRegistro" multiple style="width:308px;">
+            <option value="distrito_federal" >Distrito Federal</option>
             <option value="estado_de_mexico">Estado de México</option>
             <option value="jalisco">Guadalajara</option>
             <option value="guanajuato">León</option>
@@ -123,7 +123,7 @@
         <div class="checkbox privacidadTerminos">
           <label>
             <input type="checkbox">
-          </label> Leí y acepto el <a href="#">aviso de privacidad</a> y los <a href="#">términos y condiciones.</a>
+          </label> Leí y acepto el <a href="#">aviso de privacidad</a> y los <a href="#">términos y condiciones</a>, y el <a href="#">Contrato de membresía.</a>
         </div>
       </div>
       <div class="form-group">
@@ -134,24 +134,24 @@
 
   <!-- inicia banner beneficios-->
   <div class="col-lg-3 col-md-3 ">
-    <div class="col-lg-8 col-md-8 beneficios">
-      <div class="-col-lg-6 tituloBeneficios">
+    <div class="col-lg-8 col-md-8 beneficiosDr">
+      <div class="-col-lg-6 tituloBeneficiosDr">
         Beneficios
       </div>
-      <div class="-col-lg-6 col-md-12 descBeneficios">
+      <div class="-col-lg-6 col-md-12 descBeneficiosDr">
         Voy al Doc te ofrece muchos beneficios:
       </div>
       <div class="-col-lg-6 col-md-12">
        <ul>
-          <li>Darse a conocer entre nuevos pacientes</li>
-          <li>Oportunidad de llenar espacios disponibles en la agenda</li>
-          <li>Reducir cancelaciones e inasistencias</li>
-          <li>Dedicar menos tiempo a llamadas para agendar citas y recordatorios</li>
-          <li>Leer las encuestas de satisfacción de tus pacientes</li>
-          <li>Invertir en publicidad a través de un medio con mayor impacto</li>
-          <li>Aumentar satisfacción de los pacientes</li>
-          <li>Aumentar eficiencia de asistentes gracias al apoyo de una herramienta que les permitirá una mejor gestión de citas</li>
-        </ul>
+        <li>Darse a conocer entre nuevos pacientes</li>
+        <li>Oportunidad de llenar espacios disponibles en la agenda</li>
+        <li>Reducir cancelaciones e inasistencias</li>
+        <li>Dedicar menos tiempo a llamadas para agendar citas y recordatorios</li>
+        <li>Leer las encuestas de satisfacción de tus pacientes</li>
+        <li>Invertir en publicidad a través de un medio con mayor impacto</li>
+        <li>Aumentar satisfacción de los pacientes</li>
+        <li>Aumentar eficiencia de asistentes gracias al apoyo de una herramienta que les permitirá una mejor gestión de citas</li>
+      </ul>
     </div>
     
   </div>
