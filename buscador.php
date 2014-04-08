@@ -57,7 +57,7 @@
             </form>
             <div class="row">
               <div class="texto-buscador-link ">
-                <a href="">Buscar por nombre de doctor</a>
+                <a href="busqueda-doctor.php">Buscar por nombre de doctor</a>
               </div>
             </div>          
           </div><!--Fin Tab Doctor-->
@@ -67,9 +67,9 @@
               <div class="col-md-3 col-xs-4">
                 <img src="img/doc-a-domicilio.png" alt="doctor a domicilio" class="img-responsive img-buscador">
               </div>
-              <div class="col-md-8  doc-a-domicilio">Para hacer tu cita llámanos al: <a href="tel:+52556389099155">(55)6389-0991</a></div>
-              <div class="col-md-3 doc-a-domicilio-terminos"><a href="">Términos y Condiciones</a></div>
-              <div class="col-md-6 doc-a-domicilio-terminos">* Sólo aplica para DF y zona metropolitana</div>
+              <div class="col-lg-8 col-md-8  doc-a-domicilio">Para hacer tu cita llámanos al: <a href="tel:+52556389099155">(55)6389-0991</a></div>
+              <div class="col-lg-3 col-md-4 doc-a-domicilio-terminos"><a href="condiciones-servicios-medicos-ambulancias.php">Términos y Condiciones</a></div>
+              <div class="col-lg-6 col-md-4 doc-a-domicilio-terminos">* Sólo aplica para DF y zona metropolitana</div>
             </div>
           </div><!--Fin Tab doctor a domicilio-->
           <!-- Tab Ambulancias-->
@@ -78,9 +78,9 @@
             <div class="col-md-3 col-xs-3">
               <img src="img/ambulancia.png" alt="Ambulancia" class="img-responsive img-buscador">
             </div>
-            <div class="col-md-8 doc-a-domicilio">Para solicitar una ambulancia llámanos al: <a href="tel:+52556389099155">(55)6389-0991</a></div>
-            <div class="col-md-3 doc-a-domicilio-terminos"><a href="">Términos y Condiciones</a></div>
-            <div class="col-md-6 doc-a-domicilio-terminos">* Sólo aplica para DF y zona metropolitana</div>
+            <div class="col-lg-8 col-md-8 doc-a-domicilio">Para solicitar una ambulancia llámanos al: <a href="tel:+52556389099155">(55)6389-0991</a></div>
+            <div class="col-lg-3 col-md-4 doc-a-domicilio-terminos"><a href="condiciones-servicios-medicos-ambulancias.php">Términos y Condiciones</a></div>
+            <div class="col-lg-6 col-md-4 doc-a-domicilio-terminos">* Sólo aplica para DF y zona metropolitana</div>
           </div>
         </div><!--Fin Tab Ambulancias-->
       </div><!--Fin contenedor Buscador-->

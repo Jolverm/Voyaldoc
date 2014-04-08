@@ -18,7 +18,6 @@
 
  <?php include'bannerlateral.php' ;?> 
    
-
 </div><!-- Contenedor principal-->
 
 <?php include'footer.php' ;?>

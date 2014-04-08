@@ -4,7 +4,7 @@
 <div class="container"> 
   <!-- Incluye banner-->
   <?php include'topBanner.php' ;?>
-  <!-- inicia Terminos y condiciones -->
+  <!-- inicia Responsabilidad -->
   <div class="col-lg-9 col-md-9 contenidoEstaticoPag">
     <div class="col-lg-12 col-md-12">
       <h1>Liberación de Responsabilidad</h1>
@@ -18,7 +18,7 @@
         <p>ESTOY DE ACUERDO CON LOS TÉRMINOS ESTABLECIDOS Y EL AVISO DE PRIVACIDAD DE VAD.</p>  
       </div>
     </div>
-  </div><!-- Termina Terminos y condiciones-->
+  </div><!-- Termina Responsabilidad-->
   <?php include'bannerlateral.php' ;?>
 </div><!-- Contenedor principal-->
 <?php include'footer.php' ;?>

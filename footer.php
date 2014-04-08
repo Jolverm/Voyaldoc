@@ -41,33 +41,33 @@
           <div class="col-md-11 col-md-offset-1">
            <div class="col-md-2">
              <p>Quiénes Somos</p>
-             <a href="#">Qué es VoyalDoc</a>
+             <a href="que-es-voy-al-doc.php">Qué es VoyalDoc</a>
              <br>
-             <a href="#">El Equipo</a>
+             <a href="el-equipo.php">El Equipo</a>
              <br>
-             <a href="#">Contacto</a>
+             <a href="contacto.php">Contacto</a>
              <br>
-             <a href="#">Términos y condiciones</a>
+             <a href="terminos-y-condiciones.php">Términos y condiciones</a>
            </div>
            <div class="col-md-2">
              <p>Para Pacientes</p>
-             <a href="#">Cómo funciona VoyalDoc</a>
+             <a href="pacientes-como-funciona-voyaldoc.php">Cómo funciona VoyalDoc</a>
              <br>
-             <a href="#">Beneficios</a>
+             <a href="pacientes-beneficios.php">Beneficios</a>
              <br>
-             <a href="#">Preguntas Frecuentes</a>
+             <a href="pacientes-faq.php">Preguntas Frecuentes</a>
              <br>
-             <a href="#">Aviso de Privacidad</a>
+             <a href="privacidad.php">Aviso de Privacidad</a>
            </div>
            <div class="col-md-3">
              <p>Para Doctores</p>
-             <a href="#">Cómo funciona VoyalDoc</a>
+             <a href="doctor-como-funciona-voyaldoc.php">Cómo funciona VoyalDoc</a>
              <br>
-             <a href="#">Beneficios</a>
+             <a href="doctores-beneficios.php">Beneficios</a>
              <br>
-             <a href="#">Preguntas Frecuentes</a>
+             <a href="doctores-faq.php">Preguntas Frecuentes</a>
              <br>
-             <a href="#">Aviso de Privacidad</a>
+             <a href="privacidad.php">Aviso de Privacidad</a>
            </div>
            <div class="col-md-2">
              <p>Contacto</p>
@@ -75,7 +75,7 @@
              <br>
              <a href="#" id="fChat">chat</a>
              <br>
-             <a href="#">Horarios de atencion</a>
+             <a href="contacto.php">Horarios de atencion</a>
              <br>
              <a href="https://www.facebook.com/voyaldoc" target="_blank"><img data-cfsrc="img/facebookfooter.png" alt="Me gusta VoyalDoc en Facebook" src="img/facebookfooter.png"></a>
              <a href="https://twitter.com/voyaldoc" target="_blank"><img data-cfsrc="img/twitterfooter.png" alt="Sigue a VoyalDoc en Twitter" src="img/twitterfooter.png"></a>
@@ -98,16 +98,9 @@
   <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/menu.js"></script>
-<<<<<<< HEAD
   <script src="js/chosen/chosen.jquery.js" type="text/javascript"></script>
-
-=======
-
   
-<script type="text/javascript">
->>>>>>> origin/alex
-
-<!-- Script para menu informacion de salud Dropdowm-->
+<!--Script para menu informacion de salud Dropdowm-->
 <script type="text/javascript">
     $(function() {
         $('nav#menu').mmenu({
@@ -123,6 +116,14 @@
     $(this).tab('show')
   })
   </script>  
+
+<!-- Script para tabs Tabs Perfil Doctor -->
+<script>
+$('.menu-perfil a').click(function (e) {
+    e.preventDefault()
+    $(this).tab('show')
+})
+</script>
 
 <!-- Script para Registro doctor especialidad-->
 <script type="text/javascript">

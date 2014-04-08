@@ -100,8 +100,8 @@
                         <li><a href="#">Otros</a></li>
                       </ul>
                     </li>
-                    <li><a href="#">Iniciar sesión</a></li>
-                    <li><a href="#">Registrarse</a></li>
+                    <li><a href="login.php">Iniciar sesión</a></li>
+                    <li><a href="registro.php">Registrarse</a></li>
                   </ul>
                 </div><!-- FIn menu dropdown -->
               </div><!-- /.container-fluid -->

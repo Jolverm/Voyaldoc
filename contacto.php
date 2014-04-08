@@ -11,8 +11,8 @@
      <h2>¡Escríbenos a Voy al Doc!</h2>
 
      <p>Ayuda en Centro Telefónico de Voy al Doc</p>
-<p>Horarios de atención: de Lunes a Viernes de 9am a 8pm y Sábados de 9am a 2pm</p>
-<p>Contáctanos en info@voyaldoc.com</p>
+     <p>Horarios de atención: de Lunes a Viernes de 9am a 8pm y Sábados de 9am a 2pm</p>
+     <p>Contáctanos en info@voyaldoc.com</p>
      <!-- inicia Formulario Contacto -->
      <form role="form" class="formRegistro">
       <div class="form-group">

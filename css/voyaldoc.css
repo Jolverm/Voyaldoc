@@ -147,7 +147,7 @@ body {
 }
 
 .tituloBeneficios{
-  margin: Dpx 10px;
+  margin: 0px 10px;
   font-size: 30px;
 }
 
@@ -301,264 +301,6 @@ padding-left: 45px;
 .direccion{
  margin-right: 8px;
 }
-
-
-/****Estilos Alex****/
-
-/********************
-   PAGE RESULTADOS
-*********************/
-.filtrar{
-	margin:20px -42px 30px 5px;
-}
-.costo{
-	margin:20px -61px 30px 0;
-}
-.nombre{
-	margin:20px 0 30px;
-}
-.btn{
-	margin-top:56px;
-	margin-bottom:40px;
-	margin-left:5px;
-}
-
-.text_resultado{
-	margin-top:20px;
-    font-family: 'Open Sans',sans-serif;
-	font-size:15px;
-	color: #0F91CB;
-	font-weight:bold;
-}
-.resultado{
-	margin-top:2px;
-	background:#F4F4F4;
-	height:auto;
-	-webkit-border-radius: 20px;
-	-moz-border-radius: 20px;
-	border-radius: 20px;
-	padding-top:20px;
-	padding-bottom:20px;
-	margin-bottom:20px;
-}
-.aplicacion{
-	margin-top:2px;
-	background:#00F;
-	height:auto;
-}
-.avatar{
-	margin-left:-16px;
-}
-
-.titulo-dr{
-	font-family: 'Open Sans',sans-serif;
-	font-size:14px;
-	color: #0F91CB;
-	font-weight:bold;
-	text-decoration:underline;
-}
-.subtitulo{
-	font-size:14px;
-	color:#444444;
-	font-weight:bold;
-}
-.semana-inicio{
-	margin-left:15px;
-}
-.semana{
-	font-size:12px;
-	text-align:center;
-}
-.semana, .semana1, .semana-inicio{
-	font-size:12px;
-}
-.semana1{
-	background:#EEECED;
-}
-
-.tit-dia{
-	width:100%;
-	font-weight:bold;
-	font-size:14px;
-	text-align:center;
-	margin:0;
-}
-.horario{
-	color:#19A7C5;
-	text-decoration:underline;
-}
-
-/********************
-     PAGE PERFIL 
-*********************/
-.menu-perfil>li.active>a , .menu-perfil>li.active>a:hover, .menu-perfil > li > a:hover {
-	background: none repeat scroll 0 0 #5EC14C;
-    font-size: 16px;
-    font-weight: bold;
-    height: 40px;
-    margin-top: 10px;
-    padding: 10px;
-}
-.menu-perfil > li > a{
-	background: none repeat scroll 0 0 #C2C2C2;
-	font-size: 16px;
-    font-weight: bold;
-    height: 40px;
-    margin-top: 10px;
-    padding: 10px;
-	margin-bottom:10px;
-}
-.menu-perfil{
-	border:none;	
-	margin-top:20px;
-}
-.borderArt {
-    border-top: 4px solid #5EC14C;
-    height: 1px;
-    left: 0;
-    position: absolute;
-    top: 329px;
-    width: 100%;
-}
-.perfil{
-	background:#FFF;
-	border:none;
-	margin-top:20px;
-}
-.tit-perfil{
-	color:#2A92C7;
-}
-
-.boton{
-    background: none repeat scroll 0 0 #2A92C9;
-    border: 1px solid #1D6DC1;
-    color: #FFFFFF;
-    height: 40px;
-    text-shadow: 0 -1px 0 #1D6DC1;
-	width:111px;
-	padding:10px;
-	transition: box-shadow 0.5s ease 0s, border 0.5s ease 0s, background 0.5s ease 0s;
-	-webkit-border-radius: 6px;
-	-moz-border-radius: 6px;
-	border-radius: 6px;
-}
-.boton:hover{
-	background:#2A92FE;
-	text-decoration:none;
-	color:#FFF;
-}
-.boton-azul{
-	color:#FFF;
-	width:111px;
-	margin-bottom:20px;
-	margin-top:20px;
-}
-.calendario{
-	height:400px;
-	background:#CCC;
-	margin-bottom:30px;
-}
-.cuenta{
-	background:#F5F5F5;
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	border-radius: 10px;
-	margin-bottom:30px;
-	padding:15px;
-}
-.tit-cuenta{
-	font-weight:bold;
-	color:#2A92FE;
-	margin:0;
-}
-.datos{
-	margin-top:20px;
-	line-height:35px;
-}
-.info-datos{
-	color:#000;
-}
-.datos li{
-	color:#2A92FE;
-	font-weight:bold;
-	font-size:16px;
-}
-.btn-perfil{
-	color:#FFF;
-	margin-bottom:20px;
-	margin:30px auto;
-	text-align:center;
-}
-.enmedio{
-	margin-left:-5px;
-}
-.final{
-	margin-left:-24px;
-}
-.boton-verde{
-    background: none repeat scroll 0 0 #5EBB4B;
-    border: 1px solid #3B9928;
-    color: #FFFFFF;
-    height: 40px;
-    text-shadow: 0 -1px 0 #3B9928;
-	width:111px;
-	padding:10px;
-	transition: box-shadow 0.5s ease 0s, border 0.5s ease 0s, background 0.5s ease 0s;
-	-webkit-border-radius: 6px;
-	-moz-border-radius: 6px;
-	border-radius: 6px;
-	font-weight:bold;
-}
-.boton-verde:hover{
-	background:#3B9928;
-	text-decoration:none;
-	color:#FFF;
-
-}
-.boton-naranja{
-    background: none repeat scroll 0 0 #F18622;
-    border: 1px solid #E66E0C;
-    color: #FFFFFF;
-    height: 40px;
-    text-shadow: 0 -1px 0 #E66E0C;
-	width:111px;
-	padding:10px;
-	transition: box-shadow 0.5s ease 0s, border 0.5s ease 0s, background 0.5s ease 0s;
-	-webkit-border-radius: 6px;
-	-moz-border-radius: 6px;
-	border-radius: 6px;
-	font-weight:bold;	
-}
-.boton-naranja:hover{
-	background: #E66E0C;
-	text-decoration:none;
-	color:#FFF;
-}
-.consultorios{
-	background:#F5F5F5;
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	border-radius: 10px;
-	margin-bottom:30px;
-	padding:15px;
-}
-.boton-blue{
-    background: none repeat scroll 0 0 #2A92C9;
-    border: 1px solid #1D6DC1;
-    color: #FFFFFF;
-    height: 40px;
-    text-shadow: 0 -1px 0 #1D6DC1;
-	width:111px;
-	padding:10px;
-	transition: box-shadow 0.5s ease 0s, border 0.5s ease 0s, background 0.5s ease 0s;
-	-webkit-border-radius: 6px;
-	-moz-border-radius: 6px;
-	border-radius: 6px;	
-}
-
-
-/****Estilos Alex****/
-
 
 .texto-buscador{
   margin-left: 17px;
@@ -738,7 +480,7 @@ padding-left: 45px;
     height: 1px;
     left: 0;
     position: absolute;
-    top: 329px;
+    top: 325px;
     width: 100%;
 }
 
@@ -752,29 +494,8 @@ padding-left: 45px;
 	color:#2A92C7;
 }
 
-.boton{
-    background: none repeat scroll 0 0 #2A92C9;
-    border: 1px solid #1D6DC1;
-    color: #FFFFFF;
-    height: 40px;
-    text-shadow: 0 -1px 0 #1D6DC1;
-	width:111px;
-	padding:10px;
-	transition: box-shadow 0.5s ease 0s, border 0.5s ease 0s, background 0.5s ease 0s;
-	-webkit-border-radius: 6px;
-	-moz-border-radius: 6px;
-	border-radius: 6px;
-}
 
-.boton:hover{
-	background:#2A92FE;
-	text-decoration:none;
-	color:#FFF;
-}
-
-.boton-azul{
-	color:#FFF;
-	width:111px;
+.exportarCita{
 	margin-bottom:20px;
 	margin-top:20px;
 }
@@ -815,63 +536,6 @@ padding-left: 45px;
 	font-size:16px;
 }
 
-.btn-perfil{
-	color:#FFF;
-	margin-bottom:20px;
-	margin:30px auto;
-	text-align:center;
-}
-
-.enmedio{
-	margin-left:-5px;
-}
-
-.final{
-	margin-left:-24px;
-}
-
-.boton-verde{
-    background: none repeat scroll 0 0 #5EBB4B;
-    border: 1px solid #3B9928;
-    color: #FFFFFF;
-    height: 40px;
-    text-shadow: 0 -1px 0 #3B9928;
-	width:111px;
-	padding:10px;
-	transition: box-shadow 0.5s ease 0s, border 0.5s ease 0s, background 0.5s ease 0s;
-	-webkit-border-radius: 6px;
-	-moz-border-radius: 6px;
-	border-radius: 6px;
-	font-weight:bold;
-}
-
-.boton-verde:hover{
-	background:#3B9928;
-	text-decoration:none;
-	color:#FFF;
-}
-
-.boton-naranja{
-    background: none repeat scroll 0 0 #F18622;
-    border: 1px solid #E66E0C;
-    color: #FFFFFF;
-    height: 40px;
-    text-shadow: 0 -1px 0 #E66E0C;
-	width:111px;
-	padding:10px;
-	transition: box-shadow 0.5s ease 0s, border 0.5s ease 0s, background 0.5s ease 0s;
-	-webkit-border-radius: 6px;
-	-moz-border-radius: 6px;
-	border-radius: 6px;
-	font-weight:bold;	
-}
-
-.boton-naranja:hover{
-	background: #E66E0C;
-	text-decoration:none;
-	color:#FFF;
-}
-
 .consultorios{
 	background:#F5F5F5;
 	-webkit-border-radius: 10px;
@@ -881,19 +545,61 @@ padding-left: 45px;
 	padding:15px;
 }
 
-.boton-blue{
-    background: none repeat scroll 0 0 #2A92C9;
-    border: 1px solid #1D6DC1;
-    color: #FFFFFF;
-    height: 40px;
-    text-shadow: 0 -1px 0 #1D6DC1;
-	width:111px;
-	padding:10px;
-	transition: box-shadow 0.5s ease 0s, border 0.5s ease 0s, background 0.5s ease 0s;
-	-webkit-border-radius: 6px;
-	-moz-border-radius: 6px;
-	border-radius: 6px;	
+
+.btnEditarPerfilP{
+  margin-right: 0px;
 }
+
+.btnEditarContraP{
+  margin-right: 22px;
+}
+
+
+
+/*--------------------------------------------------------------------------------------------------------*/
+
+/*******************
+*  PERFIL DOCTOR  *
+********************/
+
+.formDatosContactoDr label{
+  color: #1E84C6;
+    font-size: 16px;
+
+}   
+
+.formDatosContactoDr input[type=text]{
+  background-color: rgba(187, 187, 187, 0.7);
+    color: #FFFFFF;
+    font-size: 13px;
+}
+
+.formDatosContactoDr{
+  line-height:25px;
+}
+.formDatosContactoDr input[type=text], .formDatosContactoDr select{
+  margin-bottom:10px;
+}
+
+.letra{
+  color: #1E84C6; 
+}
+.ejemplo{
+  color:#666;
+}
+
+.seguros{
+  margin-left:20px;
+}
+
+.busquedaTitulo>p{
+  color:#83CD73;
+  font-size: 18px;
+  text-align: center;
+  margin: 10px 3px;
+}
+
+
 
 /*--------------------------------------------------------------------------------------------------------*/
 
@@ -950,16 +656,14 @@ padding-left: 45px;
   border-radius: 8px; 
 }
 
-.DrDestacado a{
+
+.tituloDrDestacado{
+  width: 265px;
+  height: 50px;
+  padding: 10px 0px 10px 0px;
   color: #fff;
   font-size: 18px;
   text-align: center;
-}
-
-.tituloDrDestacado{
-  width: 265;
-  height: 50px;
-  padding: 10px 0px 10px 0px;
 }
 
 .textoDrDestacado{
@@ -969,7 +673,7 @@ padding-left: 45px;
 
 .botonesDestacado{
   margin-top: 10px;
-  width: 265;
+  width: 230;
   height: 50px;
 }
 
@@ -1102,20 +806,21 @@ margin: 10px 3px;
 /*******************
 * REGISTRO PACIENTE*
 ********************/
-.registro{
+.registroPac{
 background-color: #f5f5f5;
 border-radius: 8px;
 margin: 15px 0px 20px 0px;
 }
 
-.registroTitulo{
+.registroTituloPac{
   color: #83cd73;
   text-align: left;
   font-size: 30px;
   width: 350px;
+  margin: 10px 3px;
 }
 
-.registroTitulo span {
+.registroTituloPac span {
   color: #1E84C6;
   text-align: left;
   font-size: 18px;
@@ -1123,12 +828,12 @@ margin: 15px 0px 20px 0px;
   margin: 10px;
 }
 
-.comoFuncionaRegistro{
+.comoFuncionaRegistroPac{
 display: block;
 margin: 56px 0px 15px 41px;
 }
 
-.formRegistro label{
+.formRegistroPac label{
   color: #1E84C6;
   font-size: 16px;
 }
@@ -1155,27 +860,109 @@ margin: 56px 0px 15px 41px;
   font-size: 20px;
 }
 
+.dia{
+  padding-left: 0px;
+  padding-right: 10px;
+}
+
+.mes{
+  padding-left: 0px;
+  padding-right: 10px;
+}
+
+.anio{
+   padding-left: 0px;
+  padding-right: 0px;
+}
+
+
 /*--------------------------------------------------------------------------------------------------------*/
 
 /*******************
 * REGISTRO DOCTOR  *
 ********************/
 
-.comoFuncionaRegistroDr{
-  display: block;
-  margin: 15px 0px 15px 41px;
+.registroDr{
+background-color: #f5f5f5;
+border-radius: 8px;
+margin: 15px 0px 20px 0px;
 }
+
+
+.registroTituloDr{
+  color: #83cd73;
+  text-align: left;
+  font-size: 30px;
+  width: 350px;
+  margin: 10px 3px;
+}
+
+.registroTituloDr span {
+  color: #1E84C6;
+  text-align: left;
+  font-size: 18px;
+  float: left;
+  margin: 10px;
+}
+
+.comoFuncionaRegistroDr{
+display: block;
+margin: 16px 0px 23px 41px;
+}
+
+.formRegistroDr label{
+  color: #1E84C6;
+  font-size: 16px;
+}
+
 
 .prefijo label{
   float: left;
 }
 
 .foto{
-  margin-top: 12px;
+  margin: 12px 0px 6px 0px
 }
 
 .telRegistroDr label{
-margin: 4px 160px 0px 0px;
+margin: 4px 160px 0px 15px;
+}
+
+.telRegistroDr{
+  padding-left: 0px;
+  padding-right: 10px;
+}
+
+/**********************
+* BUSQUEDA AVANZADA DR*
+***********************/
+
+.busquedaDr{
+background-color: #f5f5f5;
+border-radius: 8px;
+margin: 15px 0px 20px 0px;
+height: 600px;
+}
+
+.busquedaDrTitulo{
+  color: #83cd73;
+  text-align: left;
+  font-size: 30px;
+  width: 400px;
+  margin: 10px 3px;
+}
+
+.busquedaDrTitulo span {
+  color: #1E84C6;
+  text-align: left;
+  font-size: 18px;
+  float: left;
+  margin: 10px;
+}
+
+.busquedaDrform label{
+  color: #1E84C6;
+  font-size: 16px;
 }
 
 /*--------------------------------------------------------------------------------------------------------*/
@@ -1270,6 +1057,13 @@ height: 600px;
   text-align: justify;
 }
 
+.contenidoEstaticoPag ul li a{
+  color: #8e8e8e;
+  text-decoration: none;
+  font-size: 20px;
+  list-style-type: square;
+}
+
 
 /* -- El qeuipo--*/
 
@@ -1279,7 +1073,6 @@ height: 161px;
 display: block;
 margin: 0 auto;
 border-radius: 19px;
-
 }
 
 .equipo{
@@ -1329,19 +1122,43 @@ overflow-y: scroll;
   padding-top: 25px;
 }
 
-
-
-/* -- FAQ pacentes y doctores --*/
+/* -- FAQ pacientes y doctores --*/
 
 .faq{
   height: auto;
 }
 
-
 .panel-title a{
   color: #428bca;
   font-weight: bold;
 }
+
+/* -- Hospitales--*/
+
+.hospitales ul li a{
+  color: #8e8e8e;
+  text-decoration: none;
+  font-size: 14px;
+  list-style-type: none;
+}
+
+.hospitales ul li{
+  list-style-type: square;
+}
+
+/* -- Padecimientos--*/
+
+.padecimientos ul li a{
+  color: #8e8e8e;
+  text-decoration: none;
+  font-size: 14px;
+  list-style-type: none;
+}
+
+.padecimientos ul li{
+  list-style-type: square;
+}
+
 
 /***********************************
 * FIN DE ESTILOS GENERALES 1336px *
@@ -1391,6 +1208,11 @@ overflow-y: scroll;
     width: 160px;
   }
 
+.sloganMenu h1{
+  font-size: 12px;
+  font-weight: bold;
+}
+
 
 /*--------------------------------------------------------------------------------------------------------*/
 
@@ -1413,7 +1235,6 @@ overflow-y: scroll;
   height: 475px;
 }
 
-
 .tituloBeneficios{
 margin: 5px 10px;
 font-size: 25px;
@@ -1430,13 +1251,12 @@ font-size: 12px;
 padding: 5px 0;
 }
 
-
 /*banner lateral beneficios Dr */
 
 .beneficiosDr{
  
   width: 240px;
-  height: 555px;
+  height: 580px;
 }
 
 .beneficiosDr ul li{
@@ -1471,12 +1291,10 @@ margin: 14px 0px 10px 0px;
 padding-left: 40px;
 }
 
-
 .bannerlateral img{
   width: 180px;  
   height: 600px;
 }
-
 
 /*--------------------------------------------------------------------------------------------------------*/
 
@@ -1494,37 +1312,31 @@ padding-left: 40px;
   margin: -20px;
 }
 
-<<<<<<< HEAD
-/****Estilos Alex****/
-
-.filtrar{
-	margin-left:5px;
-   	margin-right: -42px;
-	margin-bottom:40px;
-	margin-top:0;
-}
-.costo{
-	margin-left: 12px;
-	margin-bottom:40px;
-	margin-top:0;	
-}
-.nombre{
-	margin-left: 31px;
-	margin-bottom:40px;
-	margin-top:0;	
-}
-.btn{
-	margin-top:20px;
-	margin-bottom:20px;
-	margin-left:1px;
+.doc-a-domicilio{
+  padding-top: 15px;
+  text-align: left;
+  font-size: 15px;
 }
 
-/********************
-     PAGE PERFIL 
-*********************/
-.menu-perfil>li.active>a , .menu-perfil>li.active>a:hover, .menu-perfil > li > a:hover {
-	background: none repeat scroll 0 0 #5EC14C;
-=======
+.doc-a-domicilio a{
+  color: #61BF4D;
+  text-decoration: none;
+}
+
+.doc-a-domicilio-terminos{
+  padding: 24px 0px 0px 0px;
+  text-align: left;
+  font-size: 12px;
+  margin-bottom: 51px;
+}
+
+.doc-a-domicilio-terminos a{
+  color: #666666;
+  text-decoration: none;
+}
+
+
+
 /*buscador filtro */
 
 .filtrar{
@@ -1553,36 +1365,20 @@ padding-left: 40px;
 ********************/
 .menu-perfil>li.active>a , .menu-perfil>li.active>a:hover, .menu-perfil > li > a:hover {
   background: none repeat scroll 0 0 #5EC14C;
->>>>>>> origin/jorge
     font-size: 16px;
     font-weight: bold;
     height: 40px;
     margin-top: 10px;
     padding: 10px;
-<<<<<<< HEAD
-
-}
-.menu-perfil > li > a{
-	background: none repeat scroll 0 0 #C2C2C2;
-	font-size: 16px;
-=======
 }
 
 .menu-perfil > li > a{
   background: none repeat scroll 0 0 #C2C2C2;
   font-size: 16px;
->>>>>>> origin/jorge
     font-weight: bold;
     height: 40px;
     margin-top: 10px;
     padding: 10px;
-<<<<<<< HEAD
-	margin-bottom:10px;
-}
-.menu-perfil{
-	border:none;	
-}
-=======
   margin-bottom:10px;
 }
 
@@ -1590,140 +1386,67 @@ padding-left: 40px;
   border:none;  
 }
 
->>>>>>> origin/jorge
 .borderArt {
     border-top: 4px solid #5EC14C;
     height: 1px;
     left: 0;
     position: absolute;
-    top: 338px;
+    top: 327px;
     width: 100%;
 }
-<<<<<<< HEAD
-.perfil{
-	background:#FFF;
-	border:none;
-=======
 
 .perfil{
   background:#FFF;
   border:none;
->>>>>>> origin/jorge
 }
 
-.boton-verde{
-    background: none repeat scroll 0 0 #5EBB4B;
-    border: 1px solid #3B9928;
-    color: #FFFFFF;
-    height: 40px;
-    text-shadow: 0 -1px 0 #3B9928;
-<<<<<<< HEAD
-	padding:10px;
-	transition: box-shadow 0.5s ease 0s, border 0.5s ease 0s, background 0.5s ease 0s;
-	-webkit-border-radius: 6px;
-	-moz-border-radius: 6px;
-	border-radius: 6px;
-}
-.boton-verde:hover{
-	background:#3B9928;
-	text-decoration:none;
-	color:#FFF;
-}
-=======
-  padding:10px;
-  transition: box-shadow 0.5s ease 0s, border 0.5s ease 0s, background 0.5s ease 0s;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  border-radius: 6px;
+.btnEditarPerfilP{
+  margin-right: 22px;
 }
 
-.boton-verde:hover{
-  background:#3B9928;
-  text-decoration:none;
-  color:#FFF;
+.btnEditarContraP{
+  margin-right: 2px;
 }
 
->>>>>>> origin/jorge
-.boton-naranja{
-    background: none repeat scroll 0 0 #F18622;
-    border: 1px solid #E66E0C;
-    color: #FFFFFF;
-    height: 40px;
-    text-shadow: 0 -1px 0 #E66E0C;
-<<<<<<< HEAD
-	padding:10px;
-	transition: box-shadow 0.5s ease 0s, border 0.5s ease 0s, background 0.5s ease 0s;
-	-webkit-border-radius: 6px;
-	-moz-border-radius: 6px;
-	border-radius: 6px;
-}
-.boton-naranja:hover{
-	background: #E66E0C;
-	text-decoration:none;
-	color:#FFF;
-}
-=======
-  padding:10px;
-  transition: box-shadow 0.5s ease 0s, border 0.5s ease 0s, background 0.5s ease 0s;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  border-radius: 6px;
-}
-
-.boton-naranja:hover{
-  background: #E66E0C;
-  text-decoration:none;
-  color:#FFF;
-}
-
->>>>>>> origin/jorge
-.enmedio{
-  margin-left:16px;
-  width:auto;
-}
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/jorge
-.final{
-  width:auto;
-    margin-left:-15px;
-}
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/jorge
-.boton-blue{
-    background: none repeat scroll 0 0 #2A92C9;
-    border: 1px solid #1D6DC1;
-    color: #FFFFFF;
-    height: 40px;
-    text-shadow: 0 -1px 0 #1D6DC1;
-<<<<<<< HEAD
-	padding:10px;
-	transition: box-shadow 0.5s ease 0s, border 0.5s ease 0s, background 0.5s ease 0s;
-	-webkit-border-radius: 6px;
-	-moz-border-radius: 6px;
-	border-radius: 6px;
-}
-	
-
-/****Estilos Alex****/
-
-=======
-  padding:10px;
-  transition: box-shadow 0.5s ease 0s, border 0.5s ease 0s, background 0.5s ease 0s;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  border-radius: 6px;
-}
   
 /*--------------------------------------------------------------------------------------------------------*/
+
+
+
+  /*******************
+*  PERFIL DOCTOR  *
+********************/
+
+
+.seguros{
+  margin-left:55px;
+}
+
+
+.eliminarEsp {
+width: 155px;
+height: 40px;
+margin-left: -16px;
+margin-top: 26px;
+}
+
+.agregarEsp{
+  width: 155px;
+height: 40px;
+margin-left: -6px;
+margin-top: 26px;
+}
+
+
+
+
+/*--------------------------------------------------------------------------------------------------------*/
+
+
 
 /*********
 * SLIDER *
 *********/
->>>>>>> origin/jorge
 
 .informacionSalud{
   margin: 10px 5px;
@@ -1757,16 +1480,16 @@ padding-left: 40px;
   text-indent: 2px;
 }
 
-.DrDestacado a{
-  color: #fff;
-  font-size: 16px; 
-}
 
 .tituloDrDestacado{
-  width: 230px;
+  width: 210px;
   height: 35px;
   padding: 5px 0px 5px 0px;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
 }
+
 
 .textoDrDestacado{
   width: 230px;
@@ -1776,7 +1499,7 @@ padding-left: 40px;
 
 .botonesDestacado{
   margin-top: 10px;
-  width: 265;
+  width: 230px;
   height: 50px;
 }
 
@@ -1883,7 +1606,7 @@ margin: 10px 3px;
 }
 
 .registroTitulo{
-  font-size: 30px;
+font-size: 30px;
 text-align: center;
 margin: 10px 3px;
 }
@@ -1906,22 +1629,22 @@ margin: 10px 3px;
 * REGISTRO PACIENTE*
 ********************/
 
-.registroTitulo{
+.registroTituloPac{
   font-size: 25px;
   width: 200px;
 }
 
-.registroTitulo span {
+.registroTituloPac span {
   font-size: 16px;
   margin: 5px;
 }
 
 
-.comoFuncionaRegistro{
+.comoFuncionaRegistroPac{
 margin: 42px 0px 15px 116px;
 }
 
-.formRegistro label{
+.formRegistroPac label{
   font-size: 14px;
 }
 
@@ -1942,6 +1665,34 @@ margin: 4px 160px 0px 0px;
   margin: 10px 0px 10px 250px;
   font-size: 18px;
 }
+
+.dia{
+  padding-left: 0px;
+  padding-right: 10px;
+}
+
+
+.mes{
+  padding-left: 0px;
+  padding-right: 10px;
+}
+
+.anio{
+   padding-left: 0px;
+  padding-right: 0px;
+}
+
+/*--------------------------------------------------------------------------------------------------------*/
+
+/*******************
+* REGISTRO PACIENTE*
+********************/
+
+.comoFuncionaRegistroDr{
+  display: block;
+  margin: -40px 71px 28px 321px;
+}
+
 
 
 /*******************
@@ -2039,11 +1790,7 @@ overflow-y: scroll;
     float: left;
   }
 
-<<<<<<< HEAD
-}
-=======
 }/* fin de media querie 767px*/
->>>>>>> origin/jorge
 
 
 /***********************************

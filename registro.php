@@ -5,13 +5,13 @@
 	<!-- Incluye banner-->
   <?php include'topBanner.php' ;?>
   <!-- Inician formularios de login-->
-  <div class="col-lg-9 col-md-9 registro">
+  <div class="col-lg-9 col-md-9 registroPac">
     <div class="col-lg-12 col-md-12">
-      <div class="col-lg-6 col-md-6 registroTitulo">Crea tu cuenta
+      <div class="col-lg-6 col-md-6 registroTituloPac">Crea tu cuenta
         <img src="img/FacebookRegistro.png" alt="Inicia sesión con Facebook">
         <span> o llena el formulario: </span>
       </div>
-      <div class="col-lg-6 col-md-6 comoFuncionaRegistro">
+      <div class="col-lg-6 col-md-6 comoFuncionaRegistroPac">
         <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#comoFunciona">Como Funciona Voy al doc</button>
         <!-- Inicia Video popUp Como funciona voy al doc -->
         <div class="modal fade" id="comoFunciona" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -27,7 +27,7 @@
       </div>
     </div>
     
-    <form role="form" class="formRegistro">
+    <form role="form" class="formRegistroPac">
       <div class="form-group">
         <div class="col-lg-6 col-md-6">  
           <label >Nombre</label>
@@ -61,7 +61,7 @@
       <div class="form-group">
         <div class="col-lg-6 col-md-6 fechaNacimiento">  
           <label >Fecha de nacimiento</label>      
-          <div class="col-lg-4 col-md-4">
+          <div class="col-lg-3 col-md-4 dia">
             <select id="dia" class="form-control">
               <option>-</option>
               <option value="">-</option>
@@ -98,8 +98,8 @@
               <option value="31">31</option>
             </select>
           </div>
-          <div class="col-lg-4 col-md-4">
-            <select id="dia" class="form-control">
+          <div class="col-lg-5 col-md-5 mes">
+            <select id="mes" class="form-control">
               <option>-</option>
               <option value="01">Enero</option>
               <option value="02">Febrero</option>
@@ -115,8 +115,8 @@
               <option value="12">Diciembre</option>
             </select>
           </div>
-          <div class="col-lg-4 col-md-4">
-            <select id="dia" class="form-control">
+          <div class="col-lg-4 col-md-3 anio">
+            <select id="anio" class="form-control">
               <option>-</option>
               <option value="2001">2001</option>
               <option value="2000">2000</option>
@@ -210,15 +210,15 @@
           </div>
         </div>
         <div class="col-lg-6 col-md-6">
-          <label>Contraseña</label>
-          <input type="password" class="form-control" id="password" placeholder="contraseña">
+          <label>Código de promoción </label>
+          <input type="text" class="form-control" id="promocion" placeholder="Código de promoción">
         </div>
       </div>
       <div class="col-lg-12 col-md-12">
         <div class="checkbox privacidadTerminos">
           <label>
             <input type="checkbox">
-          </label> Leí y acepto el <a href="#">aviso de privacidad</a> y los <a href="#">términos y condiciones.</a>
+          </label> Leí y acepto el <a href="privacidad.php">aviso de privacidad</a> y los <a href="terminos-y-condiciones.php">términos y condiciones.</a>
         </div>
       </div>
       <div class="form-group">

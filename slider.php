@@ -29,14 +29,14 @@
         <div class="col-md-12">
           <div class="row">
             <div class="tituloDrDestacado">
-              <a href="#">¿Eres un Doctor destacado?</a>
+              ¿Eres un Doctor destacado?
             </div>
             <div class="textoDrDestacado">
               Inscribete a Voy al Doc para que más pacientes te encuentren y hagan cita
             </div>
             <div class="botonesDestacado">
-              <button type="button" class="btn btn-success">Registrate</button>
-              <button type="button" class="btn btn-warning">Inicia Sesión</button>
+              <a class="btn btn-success" href="registro-doctor.php" role="button">Registrate</a>
+              <a class="btn btn-warning" href="login.php" role="button">Inicia Sesión</a>
             </div>
           </div>
         </div>
@@ -48,7 +48,7 @@
        <div class="tituloAseguradoras">Búsqueda de doctor por:</div>
 
        <div class="listaBusquedaDr ">
-        <a href="#">Aseguradora</a>
+        <a href="aseguradoras.php">Aseguradora</a>
         <ul class="list-unstyled">
           <li> <a href="#"> Metlife México</a></li>
           <li> <a href="#"> Grupo Nacional Provincial</a></li>
@@ -58,12 +58,12 @@
           <li> <a href="#"> Mapfre</a></li>
           <li> <a href="#"> Inbursa</a></li>
           <li> <a href="#"> VRIM</a></li>
-          <li> <a href="#"> Ver más</a></li>
+          <li> <a href="aseguradoras.php"> Ver más</a></li>
         </ul>  
       </div>
 
       <div class="listaBusquedaDr">
-        <a href="#">Hospital</a>
+        <a href="hospitales.php">Hospital</a>
         <ul class="list-unstyled">
           <li> <a href="#"> Hospital Angeles Metropolitano</a></li>
           <li> <a href="#"> Médica Sur</a></li>
@@ -73,11 +73,11 @@
           <li> <a href="#"> Hospital Angeles Mocel</a></li>
           <li> <a href="#"> Sanatorio Durango</a></li>
           <li> <a href="#"> Hospital Angeles Pedregal</a></li>
-          <li> <a href="#"> Ver más</a></li>
+          <li> <a href="hospitales.php"> Ver más</a></li>
         </ul>   
       </div>
       <div class="listaBusquedaDr">
-        <a href="#">Padecimiento</a>
+        <a href="padecimientos.php">Padecimiento</a>
         <ul class="list-unstyled">
           <li> <a href="#"> Cáncer</a></li>
           <li> <a href="#"> Depresión</a></li>
@@ -87,12 +87,12 @@
           <li> <a href="#"> Asma</a></li>
           <li> <a href="#"> Cardiopatía</a></li>
           <li> <a href="#"> Gastritis</a></li>
-          <li> <a href="#"> Ver más</a></li>
+          <li> <a href="padecimientos.php"> Ver más</a></li>
         </ul>
       </div>
 
       <div class="tituloAseguradoras">
-       <a href=""> Búsqueda por tratamiento, costo u otros criterios</a>
+       <a href="busqueda-doctor.php"> Búsqueda por tratamiento, costo u otros criterios</a>
      </div>
    </div>
 
